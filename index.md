@@ -48,3 +48,12 @@ AI 查詢前必讀此頁。
 - [[skills/品牌案例拆解]]
 - [[skills/商業模式延伸]]
 
+
+
+## 品牌案例資料庫
+
+- [[wiki/cases/品牌案例資料庫]]
+- [[wiki/synthesis/品牌案例庫分類總覽]]
+- CSV 資料庫：`wiki/cases/database/品牌案例資料庫.csv`
+- 待補全案例卡：`wiki/cases/待補全/`
+- 原檔策略：保留原路徑，不複製進知識庫。
