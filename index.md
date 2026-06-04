@@ -57,3 +57,11 @@ AI 查詢前必讀此頁。
 - CSV 資料庫：`wiki/cases/database/品牌案例資料庫.csv`
 - 待補全案例卡：`wiki/cases/待補全/`
 - 原檔策略：保留原路徑，不複製進知識庫。
+
+## 品牌案例知識圖譜
+
+- [[wiki/cases/品牌案例資料庫]]
+- [[wiki/cases/品牌案例補全隊列]]
+- [[wiki/synthesis/品牌案例庫分類總覽]]
+- 產業索引：`wiki/cases/分類/`
+- 來源索引：`wiki/cases/來源/`
