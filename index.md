@@ -26,6 +26,11 @@ AI 查詢前必讀此頁。
 - OPC 一人公司
 - B2B2C / S2B2C
 
+## 商業模式總結
+
+- [[wiki/concepts/回流]]
+- [[wiki/synthesis/回流複購案例總結]]
+
 ## 目前可用 Workflow
 
 - [[workflows/每日蒸餾]]
