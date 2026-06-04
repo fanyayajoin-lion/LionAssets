@@ -211,7 +211,7 @@ def update_index_and_logs(rows: list[dict[str, str]]) -> None:
     hot_content = f"""
 ## 品牌案例連結修復
 
-- 107 張待補全案例卡已補上資料庫、分類總覽、補全隊列、產業索引、來源索引與品牌 entity 候選連結。
+- 107 張案例卡已補上資料庫、分類總覽、補全隊列、產業索引、來源索引與品牌 entity 候選連結。
 - 下一步：依 [[{QUEUE}]] 分批連網補最新資料。
 """
     append_once(WORKSPACE / "hot.md", "## 品牌案例連結修復", hot_content)
@@ -219,7 +219,7 @@ def update_index_and_logs(rows: list[dict[str, str]]) -> None:
     log_content = f"""
 ## {TODAY} 品牌案例雙向連結修復
 
-- 替 {len(rows)} 張 `wiki/cases/待補全/` 案例卡補上知識圖譜連結。
+- 替 {len(rows)} 張 `wiki/cases/案例庫/` 案例卡補上知識圖譜連結。
 - 建立 `wiki/cases/分類/` 產業索引頁。
 - 建立 `wiki/cases/來源/` 來源索引頁。
 - 建立 `wiki/cases/品牌案例補全隊列.md`。

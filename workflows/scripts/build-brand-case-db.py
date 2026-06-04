@@ -77,7 +77,7 @@ def guess_industry(brand: str, name: str, source: str, ext: str) -> str:
         return "零售平台電商"
     if re.search(r"小熊|熊小夕|蔚來|傳音|任天堂|roblox|快看|Yalla|比心|OYO|自如|Getir|Classpass|Curves|HIPCAMP|SWVL|UO|TOPTOY|周大福|倍輕鬆", text, re.I):
         return "生活科技服務"
-    return "待分類"
+    return "需人工確認"
 
 
 def case_id(source: str, brand: str, name: str) -> str:
@@ -294,7 +294,7 @@ def build_database(rows: list[CaseFile]) -> None:
             "- `industry`：先用檔名關鍵字初分，後續補全時可修正。",
             "- `research_status`：目前為待最新資料補充，代表還要逐案連網查證。",
             "- `original_source_path`：原檔仍在原資料夾，不複製到知識庫。",
-            "- `case_card`：待補全案例卡。",
+            "- `case_card`：案例卡。",
             "",
             "## 案例清單",
             "",
@@ -319,7 +319,7 @@ def write_synthesis(rows: list[CaseFile]) -> None:
         "這批資料採用「原路徑引用 + 原檔摘要 + 案例卡 + 資料庫索引」四層管理：",
         "",
         "1. 原檔保留在老闆原本資料夾，不複製進知識庫。",
-        "2. 每個檔案都有一張 `wiki/cases/待補全/` 案例卡。",
+        "2. 每個檔案都有一張 `wiki/cases/案例庫/` 案例卡。",
         "3. `wiki/cases/品牌案例資料庫.md` 作為 Obsidian 查詢入口。",
         "4. `wiki/cases/database/品牌案例資料庫.csv` 作為表格資料庫。",
         "",
@@ -358,7 +358,7 @@ def append_once(path: Path, marker: str, content: str) -> None:
 
 def main() -> int:
     rows: list[CaseFile] = []
-    (WORKSPACE / "wiki" / "cases" / "待補全").mkdir(parents=True, exist_ok=True)
+    (WORKSPACE / "wiki" / "cases" / "案例庫").mkdir(parents=True, exist_ok=True)
 
     for source, root in SOURCES:
         for path in sorted(root.rglob("*")):
@@ -370,7 +370,7 @@ def main() -> int:
             industry = guess_industry(brand, path.name, source, ext)
             cid = case_id(source, brand, path.name)
             slide_count, summary = extract_summary(path)
-            card = f"wiki/cases/待補全/{cid}.md"
+            card = f"wiki/cases/案例庫/{cid}.md"
             row = CaseFile(
                 case_id=cid,
                 brand=brand,
@@ -402,7 +402,7 @@ def main() -> int:
 - [[wiki/cases/品牌案例資料庫]]
 - [[wiki/synthesis/品牌案例庫分類總覽]]
 - CSV 資料庫：`wiki/cases/database/品牌案例資料庫.csv`
-- 待補全案例卡：`wiki/cases/待補全/`
+- 案例卡：`wiki/cases/案例庫/`
 - 原檔策略：保留原路徑，不複製進知識庫。
 """,
     )
@@ -427,7 +427,7 @@ def main() -> int:
 
 - 從三個來源資料夾讀取 107 個檔案，未複製原始檔。
 - 建立 `wiki/cases/品牌案例資料庫.md` 與 `wiki/cases/database/品牌案例資料庫.csv`。
-- 為每個來源檔案建立 `wiki/cases/待補全/` 案例卡，內含原檔抽取摘要與原始路徑。
+- 為每個來源檔案建立 `wiki/cases/案例庫/` 案例卡，內含原檔抽取摘要與原始路徑。
 - 建立 `wiki/synthesis/品牌案例庫分類總覽.md`。
 - 本輪已完成資料庫化與原檔摘要；最新資料補充需逐案連網查證。
 """,

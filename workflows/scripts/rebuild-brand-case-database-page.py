@@ -47,7 +47,7 @@ def main() -> int:
             "- `industry`：先用檔名關鍵字初分，後續補全時可修正。",
             "- `research_status`：目前為待最新資料補充，代表還要逐案連網查證。",
             "- `original_source_path`：原檔仍在原資料夾，不複製到知識庫。",
-            "- `case_card`：待補全案例卡。",
+            "- `case_card`：案例卡。",
             "",
             "## 案例清單",
             "",

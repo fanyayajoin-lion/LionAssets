@@ -56,7 +56,7 @@ def main() -> int:
         count = used.get(stem, 0) + 1
         used[stem] = count
         filename = f"{stem}.md" if count == 1 else f"{stem}-{count}.md"
-        new_rel = f"wiki/cases/待補全/{filename}"
+        new_rel = f"wiki/cases/案例庫/{filename}"
         old_rel = row["case_card"].replace("\\", "/")
         old_path = WORKSPACE / old_rel
         new_path = WORKSPACE / new_rel
