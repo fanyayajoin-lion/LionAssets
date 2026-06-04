@@ -62,6 +62,7 @@ AI 查詢前必讀此頁。
 
 - [[wiki/cases/品牌案例資料庫]]
 - [[wiki/cases/品牌案例補全隊列]]
+- [[wiki/cases/品牌案例補全狀態稽核]]
 - [[wiki/synthesis/品牌案例庫分類總覽]]
 - 產業索引：`wiki/cases/分類/`
 - 來源索引：`wiki/cases/來源/`
