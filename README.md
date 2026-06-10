@@ -15,17 +15,23 @@
 - `wiki/concepts/`：框架、方法論、商業洞察。
 - `wiki/entities/`：人、品牌、工具、客戶、平台。
 - `wiki/notes/`：單篇資料摘要。
-- `wiki/cases/`：品牌案例與商業模式拆解。
 - `wiki/synthesis/`：跨來源蒸餾、決策結晶。
-- `workflows/`：每日蒸餾、剪藏、新聞雷達、品牌案例補全等流程。
-- `skills/`：可重複調用的能力。
-- `outputs/`：文章、PPT、圖片提示詞、影片腳本等產出。
-- `assets/`：圖片、附件、PPT、影片素材。品牌案例預設只引用原始路徑，不複製原檔；除非老闆明確要求保存。
-- `archive/`：舊資料與歷史備份。
+- `workflows/`：每日蒸餾、週報、剪藏、新聞雷達、output 回流等流程。
+- `skills/`：可重複調用的能力卡。
+- `outputs/`：文章、PPT、圖片提示詞、影片腳本、HTML 復盤看板等產出。
+- `assets/`：圖片、附件、PPT、影片素材。
+- `archive/`：舊 LionAssets 備份與歷史封存。
 
 ## AI 使用方式
 
-1. 任務前先讀 `index.md`。
-2. 需要處理品牌案例時，依 `workflows/品牌案例補全歸檔.md`。
-3. 任務後更新 `index.md`、`hot.md`，並 append `log.md`。
-4. 同一主題重複出現三次以上，必須判斷是否升級為 Skill、Asset 或 Memory。
+1. 先讀 `AGENTS.md` 與 `index.md`。
+2. 判斷任務類型，讀取對應 workflow 或 skill。
+3. 需要最新資料時連網查證並保留來源。
+4. 把原始資料放在 `raw/`，整理成果放在 `wiki/`，對外產出放在 `outputs/`。
+5. 任務結束前更新 `index.md`、`hot.md`，並 append `log.md`。
+
+## GitHub
+
+遠端：`https://github.com/fanyayajoin-lion/LionAssets`
+
+覆蓋推送前，先把遠端舊內容備份到 `archive/`。

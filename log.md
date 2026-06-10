@@ -182,3 +182,13 @@
 - 將 20 個 `待分類-品牌名` 改為 `產業別-品牌名`。
 - 重建品牌案例資料庫、產業索引、來源索引與補全隊列。
 - 保留 `research_status` 管理最新資料查證，不再用資料夾名稱表示補全狀態。
+
+## 2026-06-11 群獅靈感知識庫 v1 建置
+
+- 建立 / 補齊必要資料夾：`raw/`、`wiki/`、`wiki/concepts/`、`wiki/entities/`、`wiki/notes/`、`wiki/synthesis/`、`workflows/`、`skills/`、`outputs/`、`assets/`、`archive/`。
+- 覆蓋推送前，已將 GitHub 遠端 `LionAssets/main` 備份到 `archive/lionassets-remote-backup-20260611/`。
+- 更新 `AGENTS.md`、`CLAUDE.md`、`README.md`，補上通用 LLM 規則、raw 不可改、outputs 必回流、Skill 候選、API Key 不落檔、任務結束自檢。
+- 更新 workflows：資訊搜集、隨時剪藏、每日蒸餾、每週復盤、每月整理、output 回流、API 與工具需求。
+- 更新 skills：選題價值判斷、業萱文風、去 AI 味、傳產案例拆解、文章配圖、文檔轉 PPT、影片摘要、品牌案例拆解、商業模式延伸。
+- 更新 `index.md` 與 `hot.md`，讓 AI 查詢、熱點、候選 Skill、備份狀態有清楚入口。
+- 下一步：設定手機 Telegram 剪藏入口、新聞雷達資料源、每日蒸餾自動化。
