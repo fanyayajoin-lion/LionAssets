@@ -4,7 +4,10 @@ AI 查詢前必讀此頁。
 
 ## 快速入口
 
-- 原始資料：`raw/`
+- Hermes Inbox 原始收件：`inbox/raw/`
+- AI 閱讀後理解版：`inbox/processed/`
+- 需要補資料：`inbox/needs-review/`
+- 原始資料保存：`raw/`
 - 知識層：`wiki/`
 - 概念框架：`wiki/concepts/`
 - 人物 / 品牌 / 工具 / 平台：`wiki/entities/`
@@ -12,11 +15,41 @@ AI 查詢前必讀此頁。
 - 跨來源蒸餾：`wiki/synthesis/`
 - 工作流程：`workflows/`
 - 可重複能力：`skills/`
-- 對外產出：`outputs/`
+- Threads 草稿：`outputs/threads/`
+- Facebook 長文：`outputs/facebook/`
+- IG 輪播：`outputs/ig-carousel/`
 - 圖片與附件素材：`assets/`
 - 歷史備份：`archive/`
 - 熱點與待辦：`hot.md`
 - 操作紀錄：`log.md`
+
+## 使用者日常路徑
+
+```text
+看到文章 / YT / 截圖 / Threads / IG / 小紅書
+↓
+分享到 Telegram / Hermes Inbox
+↓
+Hermes 回：已收到
+↓
+Discord 顯示：今天收到什麼
+↓
+晚上 23:00 AI 閱讀員整理
+↓
+Discord 顯示：今日整理摘要
+↓
+Obsidian 裡可搜尋、可連結、可沉澱
+```
+
+## 搜尋順序
+
+Hermes、Codex、Claude 或其他 AI 搜尋知識時，依序查：
+
+```text
+index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed
+```
+
+不要先搜 `raw/`，因為 `raw/` 是原始資料，不是老闆理解後的知識。
 
 ## 核心主題
 
@@ -28,9 +61,18 @@ AI 查詢前必讀此頁。
 - 私域與會員制
 - OPC 一人公司
 - B2B2C / S2B2C
+- 個人品牌
+- 顧問式銷售
+- 第二營收
 
 ## 目前可用 Workflow
 
+- [[workflows/Hermes收件]]
+- [[workflows/AI閱讀員]]
+- [[workflows/Discord顯示層]]
+- [[workflows/知識入庫]]
+- [[workflows/每週內容工廠]]
+- [[workflows/知識搜尋]]
 - [[workflows/資訊搜集]]
 - [[workflows/隨時剪藏]]
 - [[workflows/每日蒸餾]]
@@ -53,6 +95,27 @@ AI 查詢前必讀此頁。
 - [[skills/影片摘要]]
 - [[skills/品牌案例拆解]]
 - [[skills/商業模式延伸]]
+
+## 知識提升邏輯
+
+```text
+inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -> skills 或 outputs
+```
+
+- 單篇有價值：進 `wiki/notes/`。
+- 多篇都在講同一概念：整理進 `wiki/concepts/`。
+- 多來源形成新判斷：整理進 `wiki/synthesis/`。
+- 同類工作出現 3 次以上：提名 `skills/`。
+- 能對外發文或簡報：進 `outputs/`，並回流 wiki。
+
+## Discord 顯示層
+
+- `#inbox-log`：今天 Hermes 收到什麼。
+- `#daily-digest`：晚上 AI 閱讀員整理結果。
+- `#needs-review`：讀不到、抓不到、需要補資料。
+- `#knowledge-updates`：今天新增到 Obsidian 的 note / concept / synthesis。
+- `#weekly-output`：每週產出的 Threads、FB、IG 輪播草稿。
+- `#hermes-errors`：系統錯誤、API 失敗、排程失敗。
 
 ## 商業模式總結
 
@@ -81,9 +144,10 @@ AI 查詢前必讀此頁。
 - 產業索引：`wiki/cases/分類/`
 - 來源索引：`wiki/cases/來源/`
 
-## 本次 v1 建置狀態
+## 本次 v2 建置狀態
 
 - 本地路徑：`D:\pcsfanfan\LB群獅靈感知識`
 - GitHub 遠端：`https://github.com/fanyayajoin-lion/LionAssets`
-- 覆蓋前遠端備份：`archive/lionassets-remote-backup-20260611/`
-- 原則：簡潔架構、規則優先、raw 不動、outputs 必回流。
+- 新增 Hermes Inbox：`inbox/raw/`、`inbox/processed/`、`inbox/needs-review/`
+- 新增內容輸出路徑：`outputs/threads/`、`outputs/facebook/`、`outputs/ig-carousel/`
+- 原則：路徑符合老闆日常使用，Discord 顯示狀態，Obsidian 負責搜尋與判斷。

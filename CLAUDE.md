@@ -18,3 +18,14 @@
 - 不為了分類新增過深資料夾。
 - 不只摘要資料；要補上商業判斷、可複用框架與下一步。
 - 不把 `outputs/` 當終點，輸出必須回流。
+
+## Hermes / Discord / Obsidian 分工
+
+- Hermes 是知識庫前門，負責收件、預處理、狀態回報。
+- Discord 是顯示層，只顯示收件、整理、待補資料、入庫與輸出狀態，不當正式知識庫。
+- Obsidian markdown 是正式知識庫，搜尋與判斷以 `index.md`、`hot.md`、`wiki/synthesis/`、`wiki/concepts/`、`wiki/notes/` 為主。
+- `inbox/raw/` 完全不分類，只放 Hermes 收到但尚未整理的資料。
+- `inbox/processed/` 放 AI 閱讀員整理出的老闆理解版。
+- `inbox/needs-review/` 放讀不到、抓不到、OCR 失敗、需要補充的資料。
+- 搜尋順序固定為：`index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed`。
+- 不要先搜 `raw/`，除非需要回查原始來源。

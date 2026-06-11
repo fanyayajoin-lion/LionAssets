@@ -2,33 +2,50 @@
 
 這是群獅的 Codex + Obsidian 通用自生長知識庫，不綁單一 LLM。Codex、Claude Code 或其他 AI 只要讀到 `AGENTS.md` / `CLAUDE.md`，就能理解規則並接手。
 
-核心流程：
+## 四層使用邏輯
 
 ```text
-靈感收集 -> 原始保存 -> AI 補全 -> 知識整理 -> 商業蒸餾 -> Lion Score 評分 -> 輸出 -> 回流 -> 沉澱成 Skill / Asset / Memory
+Telegram / Hermes = 老闆隨手丟資料
+Discord = 老闆看今天系統處理到哪
+Obsidian = 老闆搜尋、判斷、沉澱知識
+GitHub = 備份與跨 AI 接手
+```
+
+正式知識庫路徑固定為：`D:\pcsfanfan\LB群獅靈感知識`。
+
+## 核心流程
+
+```text
+靈感收集 -> Hermes Inbox -> AI 閱讀員 -> Obsidian 知識庫 -> 商業蒸餾 -> 輸出 -> 回流 -> Skill / Asset / Memory
 ```
 
 ## 資料夾
 
-- `raw/`：原始資料，不修改、不刪除。
-- `wiki/`：AI 整理後的知識層。
+- `inbox/raw/`：Hermes 收到但還沒整理的東西，全部不分類。
+- `inbox/processed/`：AI 閱讀員整理後的「老闆理解版」。
+- `inbox/needs-review/`：YT 讀不到、網頁抓不到、OCR 失敗、需要補充的資料。
+- `raw/`：值得長期保存的原始資料，不修改、不刪除。
+- `wiki/`：AI 整理後的正式知識層。
 - `wiki/concepts/`：框架、方法論、商業洞察。
 - `wiki/entities/`：人、品牌、工具、客戶、平台。
-- `wiki/notes/`：單篇資料摘要。
+- `wiki/notes/`：單篇資料摘要與老闆理解。
 - `wiki/synthesis/`：跨來源蒸餾、決策結晶。
-- `workflows/`：每日蒸餾、週報、剪藏、新聞雷達、output 回流等流程。
+- `workflows/`：Hermes 收件、AI 閱讀、Discord 顯示、知識入庫、內容工廠等流程。
 - `skills/`：可重複調用的能力卡。
-- `outputs/`：文章、PPT、圖片提示詞、影片腳本、HTML 復盤看板等產出。
+- `outputs/threads/`：Threads 草稿。
+- `outputs/facebook/`：Facebook 長文草稿。
+- `outputs/ig-carousel/`：IG 輪播大綱。
 - `assets/`：圖片、附件、PPT、影片素材。
 - `archive/`：舊 LionAssets 備份與歷史封存。
 
 ## AI 使用方式
 
 1. 先讀 `AGENTS.md` 與 `index.md`。
-2. 判斷任務類型，讀取對應 workflow 或 skill。
-3. 需要最新資料時連網查證並保留來源。
-4. 把原始資料放在 `raw/`，整理成果放在 `wiki/`，對外產出放在 `outputs/`。
-5. 任務結束前更新 `index.md`、`hot.md`，並 append `log.md`。
+2. 若任務來自 Hermes，先判斷是在 `inbox/raw/`、`inbox/processed/` 還是正式 `wiki/`。
+3. 需要找資料時，依序查：`index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed`。
+4. 不要先查 `raw/`，除非要回查原始來源。
+5. 產出內容後必須回流到 `wiki/notes/` 或 `wiki/synthesis/`。
+6. 任務結束前更新需要的 `index.md`、`hot.md`，並 append `log.md`。
 
 ## GitHub
 

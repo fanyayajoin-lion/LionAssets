@@ -98,3 +98,67 @@ lion_score:
 - 是否有 output 要歸檔？
 - 是否有 asset 要連回 output？
 - 是否有孤島、矛盾、過期內容？
+
+## Hermes 個人知識工廠規則
+
+Hermes 是本知識庫的前門，但不是正式知識庫本體。
+
+日常路徑：
+
+```text
+Telegram / Hermes Inbox -> Hermes 收件 -> inbox/raw -> AI 閱讀員 -> inbox/processed -> wiki/notes 或 wiki/concepts/synthesis -> outputs 回流
+```
+
+角色分工：
+
+- Telegram / Hermes：老闆隨手丟資料的入口。
+- Hermes：收件、去重、抓正文、YouTube transcript、OCR、預摘要與狀態回報。
+- Discord：顯示層，只看系統處理到哪，不當正式資料庫。
+- Obsidian / markdown：正式知識庫，老闆搜尋、判斷、沉澱知識的地方。
+- GitHub：備份與跨 AI 接手。
+
+Inbox 規則：
+
+- `inbox/raw/`：Hermes 收到但還沒整理的東西，全部不分類。
+- `inbox/processed/`：AI 閱讀員整理後的「老闆理解版」。
+- `inbox/needs-review/`：YT 讀不到、網頁抓不到、OCR 失敗、需要老闆補充的資料。
+- Inbox 不是知識庫，不要直接拿 Inbox 當長期判斷依據。
+
+Hermes 分流規則：
+
+- 問問題：Assistant Mode。
+- 丟網址 / YT / 圖片 / 截圖：Inbox Mode。
+- `/save`：強制存入知識庫。
+- `/ask`：強制助理回答。
+- `/digest`：查今日整理結果。
+- `/find 關鍵字`：搜尋 Obsidian 知識庫。
+- `/draft 主題`：從知識庫產內容草稿。
+
+Discord 顯示層頻道：
+
+- `#inbox-log`：今天 Hermes 收到什麼。
+- `#daily-digest`：晚上 AI 閱讀員整理結果。
+- `#needs-review`：讀不到、抓不到、需要補資料。
+- `#knowledge-updates`：今天新增到 Obsidian 的 note / concept / synthesis。
+- `#weekly-output`：每週產出的 Threads、FB、IG 輪播草稿。
+- `#hermes-errors`：系統錯誤、API 失敗、排程失敗。
+
+搜尋順序：
+
+```text
+index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed
+```
+
+不要先搜 `raw/`，因為 `raw/` 是原始資料，不是老闆理解後的知識。
+
+知識提升規則：
+
+```text
+inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -> skills 或 outputs
+```
+
+- 單篇有價值：進 `wiki/notes/`。
+- 多篇都在講同一概念：整理進 `wiki/concepts/`。
+- 多來源形成新判斷：整理進 `wiki/synthesis/`。
+- 同類工作出現 3 次以上：提名 `skills/`。
+- 能對外發文或簡報：進 `outputs/`，並回流 wiki。

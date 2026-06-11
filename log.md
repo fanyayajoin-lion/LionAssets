@@ -192,3 +192,13 @@
 - 更新 skills：選題價值判斷、業萱文風、去 AI 味、傳產案例拆解、文章配圖、文檔轉 PPT、影片摘要、品牌案例拆解、商業模式延伸。
 - 更新 `index.md` 與 `hot.md`，讓 AI 查詢、熱點、候選 Skill、備份狀態有清楚入口。
 - 下一步：設定手機 Telegram 剪藏入口、新聞雷達資料源、每日蒸餾自動化。
+
+## 2026-06-11 Hermes 個人知識工廠路徑與顯示層落地
+
+- 新增 Hermes Inbox 路徑：`inbox/raw/`、`inbox/processed/`、`inbox/needs-review/`。
+- 新增內容輸出路徑：`outputs/threads/`、`outputs/facebook/`、`outputs/ig-carousel/`。
+- 更新 `AGENTS.md`、`CLAUDE.md`、`README.md`、`index.md`、`hot.md`，明確寫入 Telegram / Hermes 是入口、Discord 是顯示層、Obsidian 是正式知識庫、GitHub 是備份與跨 AI 接手。
+- 新增 workflows：`Hermes收件.md`、`AI閱讀員.md`、`Discord顯示層.md`、`知識入庫.md`、`每週內容工廠.md`、`知識搜尋.md`。
+- 搜尋順序固定為：`index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed`，不先搜 `raw/`。
+- 知識提升邏輯固定為：`inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -> skills 或 outputs`。
+- 下一步：改造 Zeabur 上既有 Hermes，先讓 Telegram / Hermes Inbox 能穩定寫入 `inbox/raw/`，並同步顯示到 Discord `#inbox-log`。
