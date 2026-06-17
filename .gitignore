@@ -1,0 +1,13 @@
+# Git 忽略規則
+__pycache__/
+*.pyc
+*.pyo
+*.db
+*.sqlite
+*.db-journal
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.cache/
+node_modules/
