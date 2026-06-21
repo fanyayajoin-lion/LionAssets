@@ -203,3 +203,11 @@
 - 知識提升邏輯固定為：`inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -> skills 或 outputs`。
 - 下一步：改造 Zeabur 上既有 Hermes，先讓 Telegram / Hermes Inbox 能穩定寫入 `inbox/raw/`，並同步顯示到 Discord `#inbox-log`。
 - `wiki/synthesis/AI數位團隊建置方案.md` — 310行，四階段操作流程 + 4堂課程大綱 + 定價模型
+## 2026-06-21
+- 重構知識庫結構：清理 00_Inbox/10_Wiki/20/30/40 舊目錄
+- 新增 workflows/碎片接收.md + workflows/知識萃取.md
+- 新增 wiki/inspiration/ 靈感庫
+- 更新 AGENTS.md 加入碎片接收規則
+- 更新 index.md 反映新結構
+- 更新 obsidian-vault-setup skill 加入 AI 行為規則
+- Git commit + push 完成
