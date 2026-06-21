@@ -211,3 +211,4 @@
 - 更新 index.md 反映新結構
 - 更新 obsidian-vault-setup skill 加入 AI 行為規則
 - Git commit + push 完成
+- 2026-06-21: 存入 OpenClaw + Hermes 商業搭配方案到 wiki/notes/
