@@ -16,7 +16,15 @@ GitHub = 備份與跨 AI 接手
 ## 核心流程
 
 ```text
-靈感收集 -> Hermes Inbox -> AI 閱讀員 -> Obsidian 知識庫 -> 商業蒸餾 -> 輸出 -> 回流 -> Skill / Asset / Memory
+你丟碎片（Telegram）→ AI 預摘要 + 連結 → 回傳 Telegram
+     ↓
+你補充判斷邏輯（故事/想法/策略）
+     ↓
+AI 萃取進 wiki（包含你的判斷 = 思維模型）
+     ↓
+知識複利（新碎片更新現有頁面，不是新增）
+     ↓
+每週提取靈感 → 同步 Notion 展示
 ```
 
 ## 資料夾
