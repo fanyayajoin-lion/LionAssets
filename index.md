@@ -5,7 +5,7 @@ AI 查詢前必讀此頁。
 ## 快速入口
 
 - Hermes Inbox 原始收件：`inbox/raw/`
-- AI 閱讀後理解版：`inbox/processed/`
+- AI 預摘要 + 你的回答：`inbox/processed/`
 - 需要補資料：`inbox/needs-review/`
 - 原始資料保存：`raw/`
 - 知識層：`wiki/`
@@ -13,6 +13,8 @@ AI 查詢前必讀此頁。
 - 人物 / 品牌 / 工具 / 平台：`wiki/entities/`
 - 單篇摘要：`wiki/notes/`
 - 跨來源蒸餾：`wiki/synthesis/`
+- 品牌案例庫：`wiki/cases/`
+- 靈感庫（每週提取）：`wiki/inspiration/`
 - 工作流程：`workflows/`
 - 可重複能力：`skills/`
 - Threads 草稿：`outputs/threads/`

@@ -43,12 +43,25 @@
 ## 必守規則
 
 - 查詢前必須先讀 `index.md`。
-- 操作後必須 append `log.md`，至少包含日期、動作、修改檔案、下一步。
-- `raw/` 永遠不可修改、不可刪除、不可覆蓋；整理只能寫到 `wiki/` 或 `outputs/`。
-- `outputs/` 不是終點，必須回流到 `wiki/notes/` 或 `wiki/synthesis/`。
-- `workflows/`、`skills/`、`outputs/`、`assets/` 不會自然更新，每次任務結束前必須主動檢查。
-- API Key 只記錄需求、用途、環境變數名稱與取得狀態，不得寫入實際 key。
-- 需要最新資訊時必須連網查證並保留來源；查不到可靠資料時標記「需查證」。
+- 操作後必須 append `log.md`。
+- `raw/` 永遠不可修改、不可刪除。
+- `outputs/` 必須回流到 `wiki/` 或 `wiki/synthesis/`。
+- workflows、skills、outputs、assets 不會自然更新，必須主動檢查並寫入。
+- API Key 只記錄需求與欄位，不得寫入實際 key。
+- 若需要最新資料，必須連網查證並保留來源；查不到可靠資料時標記「需查證」。
+
+## 碎片接收規則（NEW — 2026-06-21）
+
+- 碎片進來 → 預摘要 + 標記來源 + 搜尋 wiki 連結 → 存入 `inbox/processed/`
+- 回傳 Telegram 通知業萱：「收到碎片，摘要 + 相關連結」
+- 業萱回覆判斷邏輯 → 萃取進 wiki
+- **AI 行為規則**：
+  - Lion Score ≥ 4（任一維度）→ 自動存入 wiki，事後通知
+  - Lion Score 2-3 → 給建議，等業萱回覆
+  - Lion Score ≤ 1 → 不存，或只存到 `wiki/notes/` 備查
+- 每次存入後回傳通知：「✅ 已存入 wiki/[category]/[topic].md」
+- 業萱可以回覆「撤銷」移除不想要的內容
+- 知識複利：新碎片更新現有頁面，不是新增
 - 同一主題重複出現 3 次以上，AI 必須提名是否升級為 Skill、Asset 或 Memory，等老闆確認後再寫入。
 - 不要過度分類；能靠規則與連結管理，就不要新增多層資料夾。
 
