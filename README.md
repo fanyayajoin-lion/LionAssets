@@ -30,7 +30,8 @@ GitHub = 備份與跨 AI 接手
 - `wiki/entities/`：人、品牌、工具、客戶、平台。
 - `wiki/notes/`：單篇資料摘要與老闆理解。
 - `wiki/synthesis/`：跨來源蒸餾、決策結晶。
-- `workflows/`：Hermes 收件、AI 閱讀、Discord 顯示、知識入庫、內容工廠等流程。
+- `wiki/inspiration/`：每週從 wiki 提取的靈感素材（長文素材庫）。
+- `workflows/`：碎片接收、知識萃取、每日提問、每週總整理、靈感提取、Notion 同步等流程。
 - `skills/`：可重複調用的能力卡。
 - `outputs/threads/`：Threads 草稿。
 - `outputs/facebook/`：Facebook 長文草稿。
@@ -46,6 +47,9 @@ GitHub = 備份與跨 AI 接手
 4. 不要先查 `raw/`，除非要回查原始來源。
 5. 產出內容後必須回流到 `wiki/notes/` 或 `wiki/synthesis/`。
 6. 任務結束前更新需要的 `index.md`、`hot.md`，並 append `log.md`。
+7. 碎片接收：碎片進來 → 預摘要 + 標記來源 + 搜尋 wiki 連結 → 存入 `inbox/processed/` → 回傳 Telegram 通知。
+8. 知識複利：新碎片更新現有 wiki 頁面，不是新增。每個頁面必須包含「業萱的判斷邏輯」。
+9. AI 行為規則：Lion Score ≥ 4 自動存入 wiki 並通知；≤ 1 不存或只存 notes 備查。
 
 ## GitHub
 
