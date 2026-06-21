@@ -202,3 +202,4 @@
 - 搜尋順序固定為：`index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed`，不先搜 `raw/`。
 - 知識提升邏輯固定為：`inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -> skills 或 outputs`。
 - 下一步：改造 Zeabur 上既有 Hermes，先讓 Telegram / Hermes Inbox 能穩定寫入 `inbox/raw/`，並同步顯示到 Discord `#inbox-log`。
+- `wiki/synthesis/AI數位團隊建置方案.md` — 310行，四階段操作流程 + 4堂課程大綱 + 定價模型
