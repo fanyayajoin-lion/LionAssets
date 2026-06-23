@@ -32,6 +32,7 @@
 - `skills/`：可重複調用的能力卡。
 - `prompts/`：好用的提示詞庫，供各種 AI 工具參考。
 - `outputs/`：文章、PPT、圖片提示詞、影片腳本、HTML 看板等產出。
+  - `outputs/content/`：每週內容產出（FB/IG/脆，分族群共鳴/價值沉澱/變現代入三類）
 - `assets/`：圖片、附件、PPT、影片素材。
 - `archive/`：舊 LionAssets 備份與歷史封存。
 

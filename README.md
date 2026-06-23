@@ -45,6 +45,7 @@ AI 萃取進 wiki（包含你的判斷 = 思維模型）
 - `outputs/threads/`：Threads 草稿。
 - `outputs/facebook/`：Facebook 長文草稿。
 - `outputs/ig-carousel/`：IG 輪播大綱。
+- `outputs/content/`：每週內容產出（FB/IG/脆，分族群共鳴/價值沉澱/變現代入三類）。
 - `assets/`：圖片、附件、PPT、影片素材。
 - `archive/`：舊 LionAssets 備份與歷史封存。
 
