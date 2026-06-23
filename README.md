@@ -41,6 +41,7 @@ AI 萃取進 wiki（包含你的判斷 = 思維模型）
 - `wiki/inspiration/`：每週從 wiki 提取的靈感素材（長文素材庫）。
 - `workflows/`：碎片接收、知識萃取、每日提問、每週總整理、靈感提取、Notion 同步等流程。
 - `skills/`：可重複調用的能力卡。
+- `prompts/`：好用的提示詞庫，供各種 AI 工具參考。
 - `outputs/threads/`：Threads 草稿。
 - `outputs/facebook/`：Facebook 長文草稿。
 - `outputs/ig-carousel/`：IG 輪播大綱。

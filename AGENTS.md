@@ -30,6 +30,7 @@
 - `wiki/synthesis/`：跨來源蒸餾、決策結晶。
 - `workflows/`：每日蒸餾、剪藏、新聞雷達、週報、回流流程。
 - `skills/`：可重複調用的能力卡。
+- `prompts/`：好用的提示詞庫，供各種 AI 工具參考。
 - `outputs/`：文章、PPT、圖片提示詞、影片腳本、HTML 看板等產出。
 - `assets/`：圖片、附件、PPT、影片素材。
 - `archive/`：舊 LionAssets 備份與歷史封存。

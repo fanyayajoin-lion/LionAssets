@@ -7,6 +7,7 @@
 - 稱呼使用者為老闆。
 - 任務前先讀 `index.md`。
 - 依任務類型讀取相關 `workflows/` 與 `skills/`。
+- 需要提示詞參考時，查 `prompts/` 目錄。
 - `raw/` 不修改、不刪除、不覆蓋。
 - 產出內容後必須回流到 `wiki/notes/` 或 `wiki/synthesis/`。
 - 任務後更新需要的 `index.md`、`hot.md`，並 append `log.md`。
