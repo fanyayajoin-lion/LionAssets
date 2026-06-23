@@ -212,3 +212,4 @@
 - 更新 obsidian-vault-setup skill 加入 AI 行為規則
 - Git commit + push 完成
 - 2026-06-21: 存入 OpenClaw + Hermes 商業搭配方案到 wiki/notes/
+2026-06-23 04:39:16 | 新增 skills/Claude Code實用提示詞.md — 5個Claude Code協作提示詞：大白話解釋、需求訪談、網頁計畫、技能固化、對話記憶
