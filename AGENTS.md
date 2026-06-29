@@ -29,6 +29,7 @@
 - `wiki/notes/`：單篇資料摘要。
   - `wiki/notes/業老闆個人檔案.md` — 完整個人檔案（持續更新）
   - `wiki/notes/業老闆的人類圖行動指南.md` — 人類圖詳細指南
+  - `wiki/notes/業老闆寫文風格特徵卡.md` — AI 產出內容時的語氣參考
 - `wiki/synthesis/`：跨來源蒸餾、決策結晶。
 - `workflows/`：每日蒸餾、剪藏、新聞雷達、週報、回流流程。
 - `skills/`：可重複調用的能力卡。
