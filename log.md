@@ -217,3 +217,4 @@
 2026-06-29 14:30 | 知識庫中等簡化完成：砍掉 inbox/needs-review/、wiki/cases/分類/、wiki/cases/來源/、outputs/ 三個空子目錄、archive 重複備份；hot.md 表格改 bullet list；更新 AGENTS.md + README.md + index.md
 2026-06-29 14:30 | 建立碎片自動入庫 cron job（f1b7ac5a614c），每 2 小時自動檢查 inbox/raw/ → 預摘要 → 存入 wiki → git push
 2026-06-29 14:35 | Fragment check: inbox/raw/ has 2 files. AI數位團隊建置方案 already exists in wiki/synthesis/ (duplicate, skipped). _template-碎片.md is a template, not meaningful content, only copied to processed/.
+2026-06-29 15:00 | Fragment check: inbox/raw/ has 1 new file. AI數位團隊建置×課程架構整合方案.md — duplicate of wiki/synthesis/AI數位團隊建置方案.md (already processed), moved to processed/. No new wiki content added.
