@@ -31,7 +31,6 @@ AI 萃取進 wiki（包含你的判斷 = 思維模型）
 
 - `inbox/raw/`：Hermes 收到但還沒整理的東西，全部不分類。
 - `inbox/processed/`：AI 閱讀員整理後的「老闆理解版」。
-- `inbox/needs-review/`：YT 讀不到、網頁抓不到、OCR 失敗、需要補充的資料。
 - `raw/`：值得長期保存的原始資料，不修改、不刪除。
 - `wiki/`：AI 整理後的正式知識層。
 - `wiki/concepts/`：框架、方法論、商業洞察。
@@ -42,10 +41,7 @@ AI 萃取進 wiki（包含你的判斷 = 思維模型）
 - `workflows/`：碎片接收、知識萃取、每日提問、每週總整理、靈感提取、Notion 同步等流程。
 - `skills/`：可重複調用的能力卡。
 - `prompts/`：好用的提示詞庫，供各種 AI 工具參考。
-- `outputs/threads/`：Threads 草稿。
-- `outputs/facebook/`：Facebook 長文草稿。
-- `outputs/ig-carousel/`：IG 輪播大綱。
-- `outputs/content/`：每週內容產出（FB/IG/脆，分族群共鳴/價值沉澱/變現代入三類）。
+- `outputs/`：文章、PPT、圖片提示詞、影片腳本、HTML 看板等產出。
 - `assets/`：圖片、附件、PPT、影片素材。
 - `archive/`：舊 LionAssets 備份與歷史封存。
 

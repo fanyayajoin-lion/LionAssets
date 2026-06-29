@@ -6,7 +6,6 @@ AI 查詢前必讀此頁。
 
 - Hermes Inbox 原始收件：`inbox/raw/`
 - AI 預摘要 + 你的回答：`inbox/processed/`
-- 需要補資料：`inbox/needs-review/`
 - 原始資料保存：`raw/`
 - 知識層：`wiki/`
 - 概念框架：`wiki/concepts/`
@@ -114,7 +113,6 @@ inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -
 
 - `#inbox-log`：今天 Hermes 收到什麼。
 - `#daily-digest`：晚上 AI 閱讀員整理結果。
-- `#needs-review`：讀不到、抓不到、需要補資料。
 - `#knowledge-updates`：今天新增到 Obsidian 的 note / concept / synthesis。
 - `#weekly-output`：每週產出的 Threads、FB、IG 輪播草稿。
 - `#hermes-errors`：系統錯誤、API 失敗、排程失敗。
@@ -141,10 +139,7 @@ inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -
 - [[wiki/cases/品牌案例補全隊列]]
 - [[wiki/cases/品牌案例補全狀態稽核]]
 - [[wiki/synthesis/品牌案例庫分類總覽]]
-- CSV 資料庫：`wiki/cases/database/品牌案例資料庫.csv`
 - 案例卡：`wiki/cases/案例庫/`
-- 產業索引：`wiki/cases/分類/`
-- 來源索引：`wiki/cases/來源/`
 
 ## 本次 v2 建置狀態
 

@@ -32,7 +32,6 @@
 - `skills/`：可重複調用的能力卡。
 - `prompts/`：好用的提示詞庫，供各種 AI 工具參考。
 - `outputs/`：文章、PPT、圖片提示詞、影片腳本、HTML 看板等產出。
-  - `outputs/content/`：每週內容產出（FB/IG/脆，分族群共鳴/價值沉澱/變現代入三類）
 - `assets/`：圖片、附件、PPT、影片素材。
 - `archive/`：舊 LionAssets 備份與歷史封存。
 
@@ -146,7 +145,6 @@ Inbox 規則：
 
 - `inbox/raw/`：Hermes 收到但還沒整理的東西，全部不分類。
 - `inbox/processed/`：AI 閱讀員整理後的「老闆理解版」。
-- `inbox/needs-review/`：YT 讀不到、網頁抓不到、OCR 失敗、需要老闆補充的資料。
 - Inbox 不是知識庫，不要直接拿 Inbox 當長期判斷依據。
 
 Hermes 分流規則：
