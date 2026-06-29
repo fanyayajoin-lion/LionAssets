@@ -625,7 +625,12 @@ Hermes → Google Sheets API → 讀取客戶資料 → 生成報告
 | LINE Messaging | LINE 通訊 | 免費 |
 | Google Sheets API | CRM | 免費 |
 | Notion API | 知識庫 | 免費 |
-| Agnes AI | 影像生成 | $0-50 |
+|| Agnes AI | 影像生成 | $0-50 |
+
+---
+
+## 關聯頁面
+- [[wiki/notes/業老闆個人檔案]] — 個人檔案中「商業方向」與「系統使用偏好」章節的技術架構
 
 ---
 

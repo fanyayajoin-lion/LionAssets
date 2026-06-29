@@ -87,3 +87,8 @@ lion_score:
 - [[wiki/synthesis/品牌案例庫分類總覽]]
 - [[wiki/cases/分類/服飾美妝品牌]]
 - [[wiki/entities/話梅MARMAY]]
+
+---
+
+## 關聯頁面
+- [[wiki/notes/業老闆個人檔案]] — 個人檔案中「品牌案例」章節

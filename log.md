@@ -216,3 +216,4 @@
 2026-06-29 14:30 | 新增 wiki/notes/業老闆個人檔案.md — 完整個人檔案（決策模式 × 創業歷程 × 人類圖 × 商業方向 × 內容偏好 × 系統使用），人類圖獨立為子頁面
 2026-06-29 14:30 | 知識庫中等簡化完成：砍掉 inbox/needs-review/、wiki/cases/分類/、wiki/cases/來源/、outputs/ 三個空子目錄、archive 重複備份；hot.md 表格改 bullet list；更新 AGENTS.md + README.md + index.md
 2026-06-29 14:30 | 建立碎片自動入庫 cron job（f1b7ac5a614c），每 2 小時自動檢查 inbox/raw/ → 預摘要 → 存入 wiki → git push
+2026-06-29 14:35 | Fragment check: inbox/raw/ has 2 files. AI數位團隊建置方案 already exists in wiki/synthesis/ (duplicate, skipped). _template-碎片.md is a template, not meaningful content, only copied to processed/.
