@@ -213,3 +213,6 @@
 - Git commit + push 完成
 - 2026-06-21: 存入 OpenClaw + Hermes 商業搭配方案到 wiki/notes/
 2026-06-23 04:39:16 | 新增 skills/Claude Code實用提示詞.md — 5個Claude Code協作提示詞：大白話解釋、需求訪談、網頁計畫、技能固化、對話記憶
+2026-06-29 14:30 | 新增 wiki/notes/業老闆個人檔案.md — 完整個人檔案（決策模式 × 創業歷程 × 人類圖 × 商業方向 × 內容偏好 × 系統使用），人類圖獨立為子頁面
+2026-06-29 14:30 | 知識庫中等簡化完成：砍掉 inbox/needs-review/、wiki/cases/分類/、wiki/cases/來源/、outputs/ 三個空子目錄、archive 重複備份；hot.md 表格改 bullet list；更新 AGENTS.md + README.md + index.md
+2026-06-29 14:30 | 建立碎片自動入庫 cron job（f1b7ac5a614c），每 2 小時自動檢查 inbox/raw/ → 預摘要 → 存入 wiki → git push

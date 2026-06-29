@@ -36,6 +36,8 @@ AI 萃取進 wiki（包含你的判斷 = 思維模型）
 - `wiki/concepts/`：框架、方法論、商業洞察。
 - `wiki/entities/`：人、品牌、工具、客戶、平台。
 - `wiki/notes/`：單篇資料摘要與老闆理解。
+  - `wiki/notes/業老闆個人檔案.md` — 完整個人檔案（持續更新）
+  - `wiki/notes/業老闆的人類圖行動指南.md` — 人類圖詳細指南
 - `wiki/synthesis/`：跨來源蒸餾、決策結晶。
 - `wiki/inspiration/`：每週從 wiki 提取的靈感素材（長文素材庫）。
 - `workflows/`：碎片接收、知識萃取、每日提問、每週總整理、靈感提取、Notion 同步等流程。
