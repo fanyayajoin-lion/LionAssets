@@ -127,6 +127,7 @@ inbox/raw -> inbox/processed -> wiki/notes -> wiki/concepts 或 wiki/synthesis -
 ## 商業模式總結
 
 - [[wiki/synthesis/商業模式框架總覽]]
+- [[wiki/synthesis/課程]] — 課程架構、定價策略、競品分析
 - [[wiki/concepts/引流]] / [[wiki/synthesis/引流案例總結]]
 - [[wiki/concepts/截流]] / [[wiki/synthesis/截流案例總結]]
 - [[wiki/concepts/回流]] / [[wiki/synthesis/回流案例總結]]
