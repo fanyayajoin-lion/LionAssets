@@ -75,6 +75,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 
 ## 目前可用 Workflow
 
+- [[workflows/管理獅]]
 - [[workflows/Hermes收件]]
 - [[workflows/AI閱讀員]]
 - [[workflows/Discord顯示層]]

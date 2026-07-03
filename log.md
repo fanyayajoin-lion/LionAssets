@@ -219,3 +219,4 @@
 2026-06-29 14:35 | Fragment check: inbox/raw/ has 2 files. AI數位團隊建置方案 already exists in wiki/synthesis/ (duplicate, skipped). _template-碎片.md is a template, not meaningful content, only copied to processed/.
 2026-07-01 | 新增 wiki/projects/tarot-v5.md — 塔羅靈數第 5 版專案記錄（老婆業務：21K IG 追蹤、7 年塔羅、5000+ 客戶，專攻感情復合），待評估 Skill 化範圍
 2026-06-29 15:00 | Fragment check: inbox/raw/ has 1 new file. AI數位團隊建置×課程架構整合方案.md — duplicate of wiki/synthesis/AI數位團隊建置方案.md (already processed), moved to processed/. No new wiki content added.
+2026-07-03 | 建立管理獅行動管理入口：新增 workflows/管理獅.md，定義 Telegram 私訊路由、來源追蹤、圖片／網站收件、Wiki 更新、Git 提交與刪除審批規則。
