@@ -54,7 +54,34 @@
 - API Key 只記錄需求與欄位，不得寫入實際 key。
 - 若需要最新資料，必須連網查證並保留來源；查不到可靠資料時標記「需查證」。
 
-## 碎片接收規則（NEW — 2026-06-21）
+## 雙向連結規則（LLM Wiki 標準 — 2026-07-04 新增）
+
+所有 wiki 操作（碎片接收、每日整理、隨時剪藏、品牌案例）必須遵守：
+
+### 正向連結（outbound）
+- 每篇新頁面必須有 ≥2 個 `[[wikilinks]]` 指向既有頁面
+- 優先鏈接：concepts → entities → cases → synthesis → index/hot
+- 沒有相關頁面時標記「新主題候選」，不允許孤立頁面
+
+### 反向連結（inbound）
+- 新頁面存入 wiki 後，必須搜尋哪些舊頁面提到相同主題/實體
+- 在舊頁面上追加：`- [[新頁面|主題]] （YYYY-MM-DD 新增）`
+- 若舊頁面無關聯區塊，在頁面末尾新增
+
+### Orphan 防範
+- 新頁面 outbound ≥2 且 inbound ≥1，缺一不可
+- 每日整理跑完後檢查本次產生的頁面是否滿足條件
+
+### Frontmatter 規範
+- 每頁開頭必須有 YAML frontmatter：title, created, updated, type, tags, sources
+- 更新舊頁只改 updated，不改 created
+- 標籤來自 AGENTS.md 分類（concepts/entities/notes/synthesis）
+
+### Index 同步
+- 新頁面或更新頁面後，index.md 必須新增或更新該條目
+- 格式：`- [[頁面路徑|標題]]：一行摘要`
+
+### 碎片接收規則（NEW — 2026-06-21）
 
 - 碎片進來 → 預摘要 + 標記來源 + 搜尋 wiki 連結 → 存入 `inbox/processed/`
 - 回傳 Telegram 通知業萱：「收到碎片，摘要 + 相關連結」
