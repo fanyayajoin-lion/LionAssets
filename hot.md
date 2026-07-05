@@ -64,6 +64,10 @@
 - 確認搜尋順序固定為 `index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/processed`。
 - 下一步優先驗證 Telegram / Hermes 收件與 `inbox/raw/` 落地。
 
+## 新架構探索
+
+- [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟：本地端 AI-OS，不綁 LLM、可換皮部署，直接對應 S2B2C 模式
+
 ## 本月主題
 
 把靈感知識庫變成顧問、培訓、自媒體、AI 系統建置的商業資產庫，並讓路徑符合老闆日常使用習慣。

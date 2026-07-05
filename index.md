@@ -103,7 +103,11 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[skills/文檔轉PPT]]
 - [[skills/影片摘要]]
 - [[skills/品牌案例拆解]]
-- [[skills/商業模式延伸]]
+|- [[skills/商業模式延伸]]
+
+## 目前可用 Concept
+
+- [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟建構：技能架構、Obsidian記憶、本地語音驅動、HUD介面、換皮部署
 
 ## 知識提升邏輯
 
