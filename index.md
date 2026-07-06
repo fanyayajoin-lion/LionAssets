@@ -108,6 +108,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 ## 目前可用 Concept
 
 - [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟建構：技能架構、Obsidian記憶、本地語音驅動、HUD介面、換皮部署
+- [[wiki/concepts/hermes-agent-overview]] — Hermes Agent 深度解析：架構、功能、安全、與 OpenClaw 比較
 
 ## 知識提升邏輯
 

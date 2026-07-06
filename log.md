@@ -221,3 +221,5 @@
 2026-06-29 15:00 | Fragment check: inbox/raw/ has 1 new file. AI數位團隊建置×課程架構整合方案.md — duplicate of wiki/synthesis/AI數位團隊建置方案.md (already processed), moved to processed/. No new wiki content added.
 2026-07-03 | 建立管理獅行動管理入口：新增 workflows/管理獅.md，定義 Telegram 私訊路由、來源追蹤、圖片／網站收件、Wiki 更新、Git 提交與刪除審批規則。
 2026-07-05 | 碎片接收：處理 inbox/raw/20260705-175932-fable5os.md — Fable 5 AI 個人作業系統五步驟建構，Lion Score 平均 4.2（顧問可用性 5），自動存入 wiki/concepts/AI個人作業系統架構.md；更新 3 個既有頁面的關聯；建立 inbox/processed/20260705-AI個人作業系統架構.md；更新 index.md、hot.md、log.md。
+2026-07-06 | 新增 wiki/concepts/hermes-agent-overview.md — Hermes Agent 深度解析：架構、學習閉環、功能模組、安全模型、與 OpenClaw 比較；更新 index.md。
+2026-07-06 | 修正每日知識整理 cron job：no_agent 從 true 改為 false，解決 120 秒超時問題。
