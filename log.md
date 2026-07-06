@@ -224,3 +224,4 @@
 2026-07-06 | 新增 wiki/concepts/hermes-agent-overview.md — Hermes Agent 深度解析：架構、學習閉環、功能模組、安全模型、與 OpenClaw 比較；更新 index.md。
 2026-07-06 | 碎片接收：處理 inbox/raw/20260706-160000-AI一人公司實測.md — AI 一人公司實測（Antigravity 2.0 蒸餾人物 Skill），Lion Score 平均 4.4（可複製性 5），自動存入 wiki/concepts/AI一人公司與蒸餾人物Skill.md；建立 inbox/processed/；更新 index.md、log.md。
 2026-07-06 | 修正每日知識整理 cron job：no_agent 從 true 改為 false，解決 120 秒超時問題。
+2026-07-07 | 碎片接收批量處理：① GPT vs Codex 使用時機 → wiki/notes/GPT與Codex使用時機對比.md（Lion Score 平均 3.0）；② 蒸餾實驗心得 → wiki/concepts/AI蒸餾與分層使用法.md（Lion Score 平均 4.0，提出「AI蒸餾=團隊管理」洞察）；③ 電腦王阿達兩篇合併 → wiki/entities/電腦王阿達.md + wiki/synthesis/阿達引流自動化案例.md（Lion Score 平均 4.0）；④ 昨日對話摘要 → 不入庫（系統摘要）。已建立標籤體系：wiki/標籤/ 目錄 + wiki/tags-index.md，所有 wiki 頁面 tags 從純文字改為 [[標籤/xxx]] 格式。inbox/raw/ 清空（剩餘對話摘要待處理）。

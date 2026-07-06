@@ -3,7 +3,7 @@ title: AI 個人作業系統架構
 created: 2026-07-05
 updated: 2026-07-05
 type: concept
-tags: [AI-OS, Skill-Architecture, 語音驅動, 本地端運行, 換皮部署]
+tags: [[標籤/AI-OS]], [[標籤/Skill]], [[標籤/語音驅動]], [[標籤/本地端運行]], [[標籤/換皮部署]]
 sources: [inbox/raw/20260705-175932-fable5os.md]
 ---
 # AI 個人作業系統架構
