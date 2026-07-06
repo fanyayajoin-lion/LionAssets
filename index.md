@@ -105,6 +105,10 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[skills/品牌案例拆解]]
 |- [[skills/商業模式延伸]]
 
+## 目前可用 Note
+
+- [[wiki/notes/智能體概念換皮揭露]] — 90%抖音博主賣的智能體只是套殼LLM工具，揭露偽智能體 vs 真Agent的差異與商業收割套路
+
 ## 目前可用 Concept
 
 - [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟建構：技能架構、Obsidian記憶、本地語音驅動、HUD介面、換皮部署
