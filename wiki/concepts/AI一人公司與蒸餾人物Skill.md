@@ -3,7 +3,7 @@ title: AI 一人公司與蒸餾人物 Skill
 created: 2026-07-06
 updated: 2026-07-06
 type: concept
-tags: [一人公司, AI Agent, 蒸餾人物, Skill, Antigravity, 團隊建構]
+tags: [[標籤/一人公司]], [[標籤/Agent]], [[標籤/蒸餾]], [[標籤/Skill]], [[標籤/Antigravity]], [[標籤/團隊建構]]
 sources: [inbox/raw/20260706-170000-AI一人公司實測.md]
 ---
 

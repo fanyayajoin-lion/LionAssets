@@ -224,4 +224,5 @@
 2026-07-06 | 新增 wiki/concepts/hermes-agent-overview.md — Hermes Agent 深度解析：架構、學習閉環、功能模組、安全模型、與 OpenClaw 比較；更新 index.md。
 2026-07-06 | 碎片接收：處理 inbox/raw/20260706-160000-AI一人公司實測.md — AI 一人公司實測（Antigravity 2.0 蒸餾人物 Skill），Lion Score 平均 4.4（可複製性 5），自動存入 wiki/concepts/AI一人公司與蒸餾人物Skill.md；建立 inbox/processed/；更新 index.md、log.md。
 2026-07-06 | 修正每日知識整理 cron job：no_agent 從 true 改為 false，解決 120 秒超時問題。
-2026-07-07 | 碎片接收：處理 7 個 inbox/raw/ 檔案。新增 wiki/concepts/AI工具分層使用法.md（GPT vs Codex 分工 + 強弱模型團隊管理框架，Lion Score 平均 4.6）；新增 wiki/entities/電腦王阿達-KOCPC.md（4 條用戶路徑 + 自動化工具鏈 + 變現分析，Lion Score 平均 4.8）；更新 wiki/concepts/引流.md（新增自動化引流工具鏈）；更新 wiki/concepts/AI一人公司與蒸餾人物Skill.md（新增 AI 蒸餾 = 團隊管理洞察）。7 個檔案全部移入 processed/。
+2026-07-07 | 碎片處理（小獅）：處理 7 個 inbox/raw/ 檔案。新增 wiki/concepts/AI工具分層使用法.md（GPT vs Codex 分工 + 強弱模型團隊管理框架）；新增 wiki/entities/電腦王阿達-KOCPC.md（4 條用戶路徑 + 自動化工具鏈 + 變現分析）；更新 wiki/concepts/引流.md（新增自動化引流工具鏈）；更新 wiki/concepts/AI一人公司與蒸餾人物Skill.md（新增 AI 蒸餾 = 團隊管理洞察）。
+2026-07-07 | 碎片處理（管理獅）：① GPT vs Codex 使用時機 → wiki/notes/GPT與Codex使用時機對比.md；② 蒸餾實驗心得 → wiki/concepts/AI蒸餾與分層使用法.md（提出「AI蒸餾=團隊管理」洞察）；③ 電腦王阿達兩篇合併 → wiki/entities/電腦王阿達.md + wiki/synthesis/阿達引流自動化案例.md；④ 已建立標籤體系：wiki/標籤/ 目錄 + wiki/tags-index.md，所有 wiki 頁面 tags 改為 [[標籤/xxx]] 格式。inbox/raw/ 清空。

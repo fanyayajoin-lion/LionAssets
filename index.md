@@ -12,6 +12,8 @@ AI 查詢前必讀此頁。
 - 人物 / 品牌 / 工具 / 平台：`wiki/entities/`
 - 單篇摘要：`wiki/notes/`
 - 跨來源蒸餾：`wiki/synthesis/`
+- 標籤索引：`wiki/標籤/` — 每個標籤是可點擊連結，指向對應 wiki 頁面
+- 標籤總索引：`wiki/tags-index.md`
 - 品牌案例庫：`wiki/cases/`
 - 靈感庫（每週提取）：`wiki/inspiration/`
 - 工作流程：`workflows/`
@@ -108,13 +110,23 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 ## 目前可用 Note
 
 - [[wiki/notes/智能體概念換皮揭露]] — 90%抖音博主賣的智能體只是套殼LLM工具，揭露偽智能體 vs 真Agent的差異與商業收割套路
+- [[wiki/notes/GPT與Codex使用時機對比]] — GPT 適合頭腦風暴、Codex 適合執行，實際操作對比
+
+## 目前可用 Entity
+
+- [[wiki/entities/電腦王阿達]] — 科技媒體品牌，自動化引流案例
 
 ## 目前可用 Concept
 
 - [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟建構：技能架構、Obsidian記憶、本地語音驅動、HUD介面、換皮部署
 - [[wiki/concepts/hermes-agent-overview]] — Hermes Agent 深度解析：架構、功能、安全、與 OpenClaw 比較
 - [[wiki/concepts/AI一人公司與蒸餾人物Skill]] — 蒸餾人物 Skill 技術：把公開大神的思維邏輯與說話語氣萃取成可重複使用的 AI 技能
-- [[wiki/concepts/AI工具分層使用法]] — GPT vs Codex 分工策略 + 強弱模型團隊管理法（2026-07-07 新增）
+- [[wiki/concepts/AI工具分層使用法]] — GPT vs Codex 分工策略 + 強弱模型團隊管理法
+- [[wiki/concepts/AI蒸餾與分層使用法]] — 強模型做判斷、弱模型做執行，AI 蒸餾 = 團隊管理
+
+## 目前可用 Synthesis
+
+- [[wiki/synthesis/阿達引流自動化案例]] — 電腦王阿達 4 條引流路徑 + 自動化工具鏈 + 變現手法
 
 ## 知識提升邏輯
 
