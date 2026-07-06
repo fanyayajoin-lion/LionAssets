@@ -114,6 +114,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟建構：技能架構、Obsidian記憶、本地語音驅動、HUD介面、換皮部署
 - [[wiki/concepts/hermes-agent-overview]] — Hermes Agent 深度解析：架構、功能、安全、與 OpenClaw 比較
 - [[wiki/concepts/AI一人公司與蒸餾人物Skill]] — 蒸餾人物 Skill 技術：把公開大神的思維邏輯與說話語氣萃取成可重複使用的 AI 技能
+- [[wiki/concepts/AI工具分層使用法]] — GPT vs Codex 分工策略 + 強弱模型團隊管理法（2026-07-07 新增）
 
 ## 知識提升邏輯
 
