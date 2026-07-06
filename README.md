@@ -62,7 +62,7 @@ AI 萃取進 wiki（包含你的判斷 = 思維模型）
 
 ## 其他 AI 如何補充資料進知識庫
 
-如果你是一個 AI（H蝦趴獅、Codex、Claude Code、或其他工具），要往本知識庫丟資料，請遵守以下規則：
+如果你是一個 AI（Hermes Agent、Claude Code、OpenClaw、Codex、或其他工具），要往本知識庫丟資料，請遵守以下規則：
 
 ### 你要丟到哪？
 
