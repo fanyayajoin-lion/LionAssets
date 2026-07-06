@@ -69,9 +69,9 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 
 ## 個人檔案
 
-- [[wiki/notes/業老闆個人檔案]] — 完整個人檔案（決策模式 × 創業歷程 × 人類圖 × 商業方向 × 內容偏好）
-  - [[wiki/notes/業老闆的人類圖行動指南]] — 人類圖詳細指南
-  - [[wiki/notes/業老闆寫文風格特徵卡]] — AI 產出內容時的語氣參考
+- [[wiki/profiles/業老闆個人檔案]] — 完整個人檔案（決策模式 × 創業歷程 × 人類圖 × 商業方向 × 內容偏好）
+  - [[wiki/profiles/業老闆的人類圖行動指南]] — 人類圖詳細指南
+  - [[wiki/profiles/業老闆寫文風格特徵卡]] — AI 產出內容時的語氣參考
 
 ## 目前可用 Workflow
 
