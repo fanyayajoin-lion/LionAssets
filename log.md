@@ -227,3 +227,4 @@
 2026-07-07 | 碎片處理（小獅）：處理 7 個 inbox/raw/ 檔案。新增 wiki/concepts/AI工具分層使用法.md（GPT vs Codex 分工 + 強弱模型團隊管理框架）；新增 wiki/entities/電腦王阿達-KOCPC.md（4 條用戶路徑 + 自動化工具鏈 + 變現分析）；更新 wiki/concepts/引流.md（新增自動化引流工具鏈）；更新 wiki/concepts/AI一人公司與蒸餾人物Skill.md（新增 AI 蒸餾 = 團隊管理洞察）。
 2026-07-07 | 碎片處理（管理獅）：① GPT vs Codex 使用時機 → wiki/notes/GPT與Codex使用時機對比.md；② 蒸餾實驗心得 → wiki/concepts/AI蒸餾與分層使用法.md（提出「AI蒸餾=團隊管理」洞察）；③ 電腦王阿達兩篇合併 → wiki/entities/電腦王阿達.md + wiki/synthesis/阿達引流自動化案例.md；④ 已建立標籤體系：wiki/標籤/ 目錄 + wiki/tags-index.md，所有 wiki 頁面 tags 改為 [[標籤/xxx]] 格式。inbox/raw/ 清空。
 2026-07-07 | 碎片處理（小獅）：車輛定檢提醒 BV-931 → Lion Score 1/5（個人行政提醒，無知識庫價值），不存入 wiki，僅移至 inbox/processed/。提醒：車牌 BV-931 定檢迄日 115/07/17，已逾期約20天，建議通知業萱儘速辦理。
+2026-07-07 | 碎片接收：處理老闆口述洞察 — 實體課報名驅動因素。核心發現：實體課獨有價值是「AI模型配比CP值分析」+「免費API資源」，這解釋了為什麼線上免費內容很多但還是有人願意花錢來實體課。已存入 [[wiki/synthesis/課程]]。
