@@ -128,6 +128,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 ## 目前可用 Synthesis
 
 - [[wiki/synthesis/阿達引流自動化案例]] — 電腦王阿達 4 條引流路徑 + 自動化工具鏈 + 變現手法
+- [[wiki/synthesis/創業者vs企業主社群數據分析]] — 創業者 vs 企業主社群使用數據對比，驗證六階段模型是策略框架缺口
 
 ## 知識提升邏輯
 
