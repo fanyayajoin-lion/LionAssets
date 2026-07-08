@@ -112,6 +112,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/八字命理基礎學習筆記]] — 八字基礎知識：四柱、天干地支、五行生剋、十神、大運流年、用神，及八字×星座結合思路
 - [[wiki/notes/智能體概念換皮揭露]] — 90%抖音博主賣的智能體只是套殼LLM工具，揭露偽智能體 vs 真Agent的差異與商業收割套路
 - [[wiki/notes/GPT與Codex使用時機對比]] — GPT 適合頭腦風暴、Codex 適合執行，實際操作對比
+- [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證，不能只憑推論
 
 ## 目前可用 Entity
 
@@ -128,7 +129,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 ## 目前可用 Synthesis
 
 - [[wiki/synthesis/阿達引流自動化案例]] — 電腦王阿達 4 條引流路徑 + 自動化工具鏈 + 變現手法
-- [[wiki/synthesis/創業者vs企業主社群數據分析]] — 創業者 vs 企業主社群使用數據對比，驗證六階段模型是策略框架缺口
+- [[wiki/synthesis/創業者vs企業主社群行為洞察]] — 創業者 vs 企業主社群使用行為數據對比，產品切入點：把收藏碎片變成可執行 Skill
 
 ## 知識提升邏輯
 

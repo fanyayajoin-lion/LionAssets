@@ -229,4 +229,4 @@
 2026-07-07 | 碎片處理（小獅）：車輛定檢提醒 BV-931 → Lion Score 1/5（個人行政提醒，無知識庫價值），不存入 wiki，僅移至 inbox/processed/。提醒：車牌 BV-931 定檢迄日 115/07/17，已逾期約20天，建議通知業萱儘速辦理。
 2026-07-07 | 碎片處理（小獅）：八字命理學習筆記 → Lion Score 平均 3.6（變現價值 4、長期價值 4、內容延展性 4），自動存入 wiki/notes/八字命理基礎學習筆記.md；更新 index.md；移至 inbox/processed/。
 2026-07-08 | Fragment processing: dialog summary 2026-07-07, Lion Score 3.4, mostly operational decisions already in system config, no wiki update needed. Moved to inbox/processed/.
-2026-07-08 | 碎片處理（小獅）：創業者 vs 企業主社群使用數據分析 → Lion Score 平均 4.4（顧問可用性 5、內容延展性 5），自動存入 wiki/synthesis/創業者vs企業主社群數據分析.md；更新課程.md 與 index.md 雙向連結。核心洞察：小老闆收藏碎片但缺策略框架，六階段模型正好補這個缺口。待業萱判斷數據準確性與產品定位契合度。
+2026-07-08 | 碎片處理（管理獅）：① 數據作證規則 → wiki/notes/數據作證規則.md（AI 互動行為準則：假設性判斷必須查真實數據）；② 創業者 vs 企業主社群行為洞察 → wiki/synthesis/創業者vs企業主社群行為洞察.md（創業者碎片時間全在手機上但不知如何使用，六階段模型是策略框架）。更新 index.md、log.md。
