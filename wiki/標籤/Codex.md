@@ -1,13 +1,12 @@
 ---
 title: Codex
 type: tag
-related: [wiki/notes/GPT與Codex使用時機對比.md]
+related: []
 articles: []
 ---
 # 標籤：Codex
 
-OpenAI Codex CLI 的使用心得、與 GPT 的差異。
+OpenAI Codex CLI 的使用、技巧、與 Hermes 的搭配方案。
 
 ## 關聯頁面
-
-- [[wiki/notes/GPT與Codex使用時機對比]] — GPT vs Codex 使用時機對比
+- [[wiki/notes/OpenClaw與Hermes商業搭配方案]]
