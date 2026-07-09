@@ -232,4 +232,5 @@
 2026-07-08 | 碎片處理（管理獅）：① 數據作證規則 → wiki/notes/數據作證規則.md（AI 互動行為準則：假設性判斷必須查真實數據）；② 創業者 vs 企業主社群行為洞察 → wiki/synthesis/創業者vs企業主社群行為洞察.md（創業者碎片時間全在手機上但不知如何使用，六階段模型是策略框架）。更新 index.md、log.md。
 2026-07-09 | 碎片接收：處理 inbox/raw/20260709-001000-ClaudeCodeFable5成本優化.md — Claude Code Fable 5 成本優化策略（Advisor 模式 + Orchestrator 模式），Lion Score 平均 4.0（長期價值 5、顧問可用性 4），更新 wiki/tools/claude-code-shortcuts.md（新增第五章 Fable 5 成本優化策略 + 關聯知識 wikilinks）；更新 index.md、log.md。
 2026-07-09 | 碎片接收：處理 inbox/raw/20260709-002000-MetaAds自動化架構.md — Meta Ads 投放自動化五步流程（MCP 串接 + GCS 圖床 + Creative 自動上架），Lion Score 平均 4.6（變現價值 5、長期價值 5、顧問可用性 5），建立 wiki/concepts/Meta Ads投放自動化架構.md + wiki/標籤/Meta.md；更新 index.md、log.md。
-2026-07-09 | 碎片接收（圖片）：處理 inbox/raw/20260709-003000-Meta合作廣告洞察.md — Meta 合作廣告與素材策略（創作者素材競賽時代、CPA 降低 19%～37%、KOC 評估指標），建立 wiki/concepts/Meta合作廣告與素材策略.md；更新 index.md、log.md、標籤關聯。
+235|2026-07-09 | 碎片接收（圖片）：處理 inbox/raw/20260709-003000-Meta合作廣告洞察.md — Meta 合作廣告與素材策略（創作者素材競賽時代、CPA 降低 19%～37%、KOC 評估指標），建立 wiki/concepts/Meta合作廣告與素材策略.md；更新 index.md、log.md、標籤關聯。
+236|2026-07-09 | Housekeeping: inbox/raw 剩餘的 20260709-003000-Meta合作廣告洞察.md 已移至 inbox/processed/（今日已由管理獅處理完畢，屬重複檔案清理）。commit f80fc79，push 成功。
