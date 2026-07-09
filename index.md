@@ -125,8 +125,8 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/concepts/AI一人公司與蒸餾人物Skill]] — 蒸餾人物 Skill 技術：把公開大神的思維邏輯與說話語氣萃取成可重複使用的 AI 技能
 - [[wiki/concepts/AI工具分層使用法]] — GPT vs Codex 分工策略 + 強弱模型團隊管理法
 |- [[wiki/concepts/AI蒸餾與分層使用法]] — 強模型做判斷、弱模型做執行，AI 蒸餾 = 團隊管理
-|- [[wiki/tools/claude-code-shortcuts]] — Claude Code 快捷操作指南 + Fable 5 成本優化策略（Advisor 模式 / Orchestrator 模式）
-|- [[wiki/concepts/Meta Ads投放自動化架構]] — Meta Ads 投放自動化五步流程：MCP 串接、GCS 圖床、Creative 自動上架
+||- [[wiki/tools/claude-code-shortcuts]] — Claude Code 快捷操作指南 + Fable 5 成本優化策略（Advisor 模式 / Orchestrator 模式）
+- [[wiki/concepts/Meta Ads自動化架構]] — Meta Ads 投放自動化五步流程：MCP 串接、GCS 圖床、Creative 自動上架
 
 ## 目前可用 Synthesis
 
