@@ -43,19 +43,32 @@
 - ✅ [choosing-your-brain.md](choosing-your-brain.md) — 選 Provider
 - ✅ [first-conversation.md](first-conversation.md) — 跟 Hermes 說第一句話
 
-## 預計章節（待寫）
-
 ### 第三篇：核心概念
-- [agent-gateway-provider.md] — Agent / Gateway / Provider 是什麼
-- [memory-and-skills.md] — 記憶和技能怎麼運作
-- [profiles-and-config.md] — 多個分身與設定檔
+- ✅ [agent-gateway-provider.md](agent-gateway-provider.md) — Agent / Gateway / Provider 是什麼
+- ✅ [memory-and-skills.md](memory-and-skills.md) — 記憶和技能怎麼運作
+- ✅ [profiles-and-config.md](profiles-and-config.md) — 多個分身與設定檔
 
 ### 第四篇：日常使用
-- [daily-operations.md] — 日常維護、升級、備份
-- [troubleshooting.md] — 壞掉時怎麼查
-- [voice-mode.md] — 語音模式設定
+- ✅ [daily-operations.md](daily-operations.md) — 日常維護、升級、備份
+- ✅ [troubleshooting.md](troubleshooting.md) — 壞掉時怎麼查
+- ✅ [voice-mode.md](voice-mode.md) — 語音模式設定
 
 ### 第五篇：進階（選讀）
-- [multi-agent-setup.md] — 多 Agent 架構
-- [deployment-options.md] — 本機 / VPS / Docker 部署選擇
-- [security-and-privacy.md] — 安全與隱私設定
+- ✅ [multi-agent-setup.md](multi-agent-setup.md) — 多 Agent 架構
+- ✅ [deployment-options.md](deployment-options.md) — 本機 / VPS / Docker 部署選擇
+- ✅ [security-and-privacy.md](security-and-privacy.md) — 安全與隱私設定
+
+## 手冊特色
+
+- **白話解釋**：不用技術術語，用餐廳、秘書、診所等生活比喻
+- **一步一步跟著做**：每個章節都有操作步驟，照著做就能完成
+- **常見錯誤**：列出最容易犯的錯和解法
+- **Skill 概念植入**：在適當的地方植入「把你的本事變成 Skill」的概念
+
+## 下一步
+
+看完手冊後，你可以：
+
+1. **跟著 quick-start.md 建好你的 Hermes**
+2. **讀 memory-and-skills.md 了解 Skill 的概念**
+3. **報名「AI 人才複製」課程，學習如何把你的公司本事變成 Skill**

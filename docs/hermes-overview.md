@@ -83,9 +83,26 @@ Hermes 可以跑在：
 ## 壞掉會怎樣
 如果 Hermes 壞了，你的 AI 模型（ChatGPT、Claude）還是正常的，只是少了「記憶」和「做事」的能力。換句話說，**只是回到一般 AI 問答的模式，不會影響你原本的工具**。
 
+## 隱藏王牌：Skill（技能）
+
+Hermes 最厲害的不是他能聊天，而是他能**學會你的工作方法**。
+
+想像你公司最有經驗的業務，他知道怎麼回覆客戶、怎麼推銷產品。
+這些本事，可以變成一種「技能包」（Skill），讓 AI 也像那個業務一樣做事。
+
+**每一個公司的核心能力，都可以變成 Skill。**
+這就是我們後續課程「AI 人才複製」在教的事——**把你公司的本事，變成 AI 的技能。**
+
+### 舉個例子
+- 你的香料大叔知道怎麼回覆客戶詢問 → 變成 Skill → AI 也能回覆
+- 你的命理顧問知道怎麼解盤 → 變成 Skill → AI 也能解盤
+- 你的阿米巴顧問知道怎麼做報告 → 變成 Skill → AI 也能寫報告
+
+**AI 不是要取代你的人，而是要複製你的本事。**
+
 ## 技術補充
 - 官網：https://hermes-agent.nousresearch.com
 - 原始碼：https://github.com/NousResearch/hermes-agent
 - 支援平台：Linux、macOS、Windows（WSL）、雲端 VPS
-- 支援的 AI 模型：OpenAI、Anthropic、Google、DeepSeek、xAI...等 20+ 家
+- 支援的 AI 模型：OpenAI（GPT-4）、Anthropic（Claude）、Google（Gemini）、DeepSeek、xAI（Grok）...等 20+ 家
 - 通訊平台：Telegram、Discord、Slack、WhatsApp...等
