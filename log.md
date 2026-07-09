@@ -230,3 +230,4 @@
 2026-07-07 | 碎片處理（小獅）：八字命理學習筆記 → Lion Score 平均 3.6（變現價值 4、長期價值 4、內容延展性 4），自動存入 wiki/notes/八字命理基礎學習筆記.md；更新 index.md；移至 inbox/processed/。
 2026-07-08 | Fragment processing: dialog summary 2026-07-07, Lion Score 3.4, mostly operational decisions already in system config, no wiki update needed. Moved to inbox/processed/.
 2026-07-08 | 碎片處理（管理獅）：① 數據作證規則 → wiki/notes/數據作證規則.md（AI 互動行為準則：假設性判斷必須查真實數據）；② 創業者 vs 企業主社群行為洞察 → wiki/synthesis/創業者vs企業主社群行為洞察.md（創業者碎片時間全在手機上但不知如何使用，六階段模型是策略框架）。更新 index.md、log.md。
+2026-07-09 | 碎片接收：處理 inbox/raw/20260709-001000-ClaudeCodeFable5成本優化.md — Claude Code Fable 5 成本優化策略（Advisor 模式 + Orchestrator 模式），Lion Score 平均 4.0（長期價值 5、顧問可用性 4），更新 wiki/tools/claude-code-shortcuts.md（新增第五章 Fable 5 成本優化策略 + 關聯知識 wikilinks）；更新 index.md、log.md。

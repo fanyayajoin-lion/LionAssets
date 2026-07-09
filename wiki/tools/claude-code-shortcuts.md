@@ -1,7 +1,7 @@
 ---
 title: Claude Code 快捷操作指南
 created: 2026-07-01
-tags: [tools, claude-code, productivity]
+tags: [tools, claude-code, fable-5, cost-optimization, productivity]
 aliases: [CC快捷操作, Claude Code shortcuts]
 ---
 
@@ -71,7 +71,77 @@ aliases: [CC快捷操作, Claude Code shortcuts]
 
 ---
 
-## 五、收尾與求救
+## 五、Fable 5 成本優化策略（2026-07-09 新增）
+
+Fable 5 是最強的模型，但也最貴（$10/$50 per million tokens）。
+**不一定要全程開 Fable 5**——有兩種省錢又高效的玩法。
+
+### 方法一：Advisor 模式
+
+```
+/model sonnet
+/advisor fable
+（或 /advisor claude-fable-5）
+```
+
+- Sonnet 5 負責 90% 以上的實際執行
+- Fable 5 只在關鍵決策、架構設計、卡關時提供建議
+
+> **Fable 思考，Sonnet 執行。**
+
+Anthropic SWE-bench Pro 測試：Sonnet 5 + Fable 5 Advisor ≈ Fable 5 92% 表現，成本只要 63%。
+
+### 方法二：Orchestrator 模式
+
+讓 Fable 5 擔任編排者（Orchestrator）：
+
+- 規劃任務、拆解工作
+- 指派給 Worker（Sonnet 5）
+- 最後整合結果
+
+大量 Token 由 Sonnet 5 消耗。
+
+Anthropic BrowseComp 測試：Fable 5（Orchestrator）＋ Sonnet 5（Worker）→ 96% Fable 5 效果，成本只要 46%。
+
+> **🧠 Fable 負責想，⚙️ Sonnet 負責做**
+
+### 實踐方式
+
+**方式 A：Custom Command**
+
+建立 `~/.claude/commands/orchestrator.md`，內容讓 Claude 進入 Orchestrator 模式：
+
+- 負責整體規劃與拆解
+- 執行工作委派給 Sub-agents / Workers
+- 最後負責審核與整合
+- 優先使用低成本模型完成細節
+- 保持 Context 精簡
+
+使用：`/orchestrator 幫我做登入功能`
+
+**方式 B：寫進 CLAUDE.md 預設**
+
+在專案的 `CLAUDE.md` 加上：
+
+```markdown
+## 預設工作模式：Orchestrator
+你預設使用 Orchestrator 模式：
+- 你負責整體規劃、任務拆解、委派與最終審核
+- 把執行細節委派給子代理（worker），優先使用 Sonnet 5 等低成本模型
+- 保持上下文精簡，只保留重要決策與總結
+- 每個子任務都要明確定義驗收標準
+- 盡量平行委派加速
+```
+
+### 關聯知識
+
+- [[wiki/concepts/AI蒸餾與分層使用法]] — 強模型做判斷、弱模型做執行
+- [[wiki/concepts/AI個人作業系統架構]] — Fable 5 五步驟建構
+- [[wiki/concepts/AI一人公司與蒸餾人物Skill]] — 蒸餾人物 Skill 技術
+
+---
+
+## 六、收尾與求救
 
 ### `/code-review`
 改完讓它幫你抓 bug、可讀性、資安問題——等於免費請一個 reviewer。
@@ -81,7 +151,7 @@ aliases: [CC快捷操作, Claude Code shortcuts]
 
 ---
 
-## ⚡️ 新手必練四組反射
+## 七、新手必練四組反射
 
 ```
 init 開場 → context 看油表 → compact/clear 收尾 → esc esc 當保險
@@ -93,7 +163,7 @@ init 開場 → context 看油表 → compact/clear 收尾 → esc esc 當保險
 
 ---
 
-## 速查表
+## 八、速查表
 
 | 需求 | 指令 |
 |---|---|
