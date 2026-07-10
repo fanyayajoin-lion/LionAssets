@@ -113,7 +113,8 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/八字命理基礎學習筆記]] — 八字基礎知識：四柱、天干地支、五行生剋、十神、大運流年、用神，及八字×星座結合思路
 - [[wiki/notes/智能體概念換皮揭露]] — 90%抖音博主賣的智能體只是套殼LLM工具，揭露偽智能體 vs 真Agent的差異與商業收割套路
 - [[wiki/notes/GPT與Codex使用時機對比]] — GPT 適合頭腦風暴、Codex 適合執行，實際操作對比
-- [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證，不能只憑推論
+|- [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證，不能只憑推論
+- [[wiki/notes/業老闆固定式重訓機菜單]] — 固定式機台專屬健身菜單（腳踝弱 + 猛健樂注意事項 + 上半身/下半身輪流表）
 
 ## 目前可用 Entity
 
