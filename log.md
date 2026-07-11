@@ -221,3 +221,9 @@
 ③ Hermes-Agent-Cloud-雲端部署 -> Lion Score 4.0（長期價值4、內容延展性4），存入 wiki/concepts/Hermes-Agent-Cloud-雲端部署.md — 60秒一鍵部署路線四
 ④ WSL檔案搬移風險教訓 -> Lion Score 3.8（長期價值4），存入 wiki/notes/WSL檔案搬移風險教訓.md — 跨平台檔案操作風險意識
 全部移至 inbox/processed/，更新 index.md，log.md。
+
+## 2026-07-13
+- [新增] `wiki/external-skills/speak-human-tw.md` — 說人話 skill 設計文檔（38 種 AI 痕跡檢測 + 六步改寫流程 + 繁體中文在地化）
+- [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
+- [更新] `index.md` — 新增外部 skill 索引入口與條目
+- [來源] https://github.com/Raymondhou0917/speak-human-tw
