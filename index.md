@@ -24,6 +24,7 @@ AI 查詢前必讀此頁。
 - 圖片與附件素材：`assets/`
 - 歷史備份：`archive/`
 - 熱點與待辦：`hot.md`
+- 外部 Skill 彙整：`wiki/external-skills/` — 收錄從網路發現的他人設計的 skill
 - 操作紀錄：`log.md`
 
 ## 使用者日常路徑
@@ -109,7 +110,8 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 |- [[skills/商業模式延伸]]
 
 ## 目前可用 Note
-
+- [[wiki/external-skills/index]] — 外部 Skill 彙整：從 GitHub、社群發現的他人 skill 設計
+  - [[wiki/external-skills/speak-human-tw]] — 說人話：繁體中文去 AI 味 skill（38 種痕跡檢測 + 六步改寫流程）
 - [[wiki/profiles/業老闆個人檔案]] — 完整個人檔案（持續更新）
   - [[wiki/profiles/業老闆的人類圖行動指南]] — 人類圖詳細指南
   - [[wiki/profiles/業老闆寫文風格特徵卡]] — AI 產出內容時的語氣參考

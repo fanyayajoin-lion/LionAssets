@@ -245,3 +245,10 @@
 - 補齊雙向連結：健康減脂計畫 ↔ 固定式重訓機菜單
 - 更新 index.md Note 區段、個人檔案更新記錄
 - Git commit b8b733e + push 成功
+
+
+## 2026-07-13
+- [新增] `wiki/external-skills/speak-human-tw.md` — 說人話 skill 設計文檔（38 種 AI 痕跡檢測 + 六步改寫流程 + 繁體中文在地化）
+- [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
+- [更新] `index.md` — 新增外部 skill 索引入口與條目
+- [來源] https://github.com/Raymondhou0917/speak-human-tw
