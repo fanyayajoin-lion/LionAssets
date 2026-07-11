@@ -2,13 +2,7 @@
 
 
 
-
-
-
-
 ## 2026-06-05
-
-
 
 
 
@@ -18,22 +12,13 @@
 
 
 
-- 將舊 LionAssets 內容備份到 `archive/lionassets-legacy-20260605/`。
+
+- 將舊 LionAssets 內容備份到 `archive/lionassets-legacy-20260605/`.
+
 
 
 
 - 建立核心規則、workflow、skill 與品牌案例模板。
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -43,14 +28,13 @@
 
 
 
-
-
-
 - 從三個來源資料夾讀取 107 個檔案，未複製原始檔。
 
 
 
-- 建立 `wiki/cases/品牌案例資料庫.md` 與 `wiki/cases/database/品牌案例資料庫.csv`。
+
+- 建立 `wiki/cases/品牌案例資料庫.md` 與 `wiki/cases/database/品牌案例資料庫.csv`.
+
 
 
 
@@ -58,14 +42,13 @@
 
 
 
-- 建立 `wiki/synthesis/品牌案例庫分類總覽.md`。
+
+- 建立 `wiki/synthesis/品牌案例庫分類總覽.md`.
+
 
 
 
 - 本輪已完成資料庫化與原檔摘要；最新資料補充需逐案連網查證。
-
-
-
 
 
 
@@ -75,10 +58,8 @@
 
 
 
-
-
-
 - 替 107 張 `wiki/cases/案例庫/` 案例卡補上知識圖譜連結。
+
 
 
 
@@ -86,18 +67,18 @@
 
 
 
+
 - 建立 `wiki/cases/來源/` 來源索引頁。
 
 
 
-- 建立 `wiki/cases/品牌案例補全隊列.md`。
+
+- 建立 `wiki/cases/品牌案例補全隊列.md`.
 
 
 
-- 更新 `wiki/cases/品牌案例資料庫.md`、`wiki/synthesis/品牌案例庫分類總覽.md`、`index.md`、`hot.md`。
 
-
-
+- 更新 `wiki/cases/品牌案例資料庫.md`、`wiki/synthesis/品牌案例庫分類總覽.md`、`index.md`、`hot.md`.
 
 
 
@@ -107,14 +88,13 @@
 
 
 
-
-
-
 - 將 107 張案例卡檔名從 `case-id` 改成 `產業別-品牌名`；重複品牌用 `-2` 等序號避免撞名。
 
 
 
-- 確認目前 107 件皆為 `待最新資料補充`。
+
+- 確認目前 107 件皆為 `待最新資料補充`.
+
 
 
 
@@ -122,10 +102,8 @@
 
 
 
+
 - 建立 `wiki/cases/品牌案例補全狀態稽核.md`，避免把原檔摘要誤認為品牌補全。
-
-
-
 
 
 
@@ -135,10 +113,8 @@
 
 
 
+- 依現有品牌案例摘要，建立 `wiki/concepts/回流.md`.
 
-
-
-- 依現有品牌案例摘要，建立 `wiki/concepts/回流.md`。
 
 
 
@@ -146,10 +122,8 @@
 
 
 
+
 - 本頁尚未補各品牌最新公開資料，後續需依優先品牌逐案查證。
-
-
-
 
 
 
@@ -159,10 +133,8 @@
 
 
 
-
-
-
 - 依照品牌案例資料庫，補齊 12 個 business_framework 的概念頁與案例總結頁。
+
 
 
 
@@ -170,14 +142,14 @@
 
 
 
+
 - 原則：不新增複雜分類，讓同一品牌可同時連到多個底層框架。
 
 
 
+
 - 狀態：基於既有 PPT 摘要整理，可直接使用；最新品牌資料仍需逐案補全。
-
 ## 2026-06-05 案例庫命名修正
-
 - 將 `wiki/cases/待補全/` 改為 `wiki/cases/案例庫/`，避免正式案例看起來像半成品。
 - 將 20 個 `待分類-品牌名` 改為 `產業別-品牌名`。
 - 重建品牌案例資料庫、產業索引、來源索引與補全隊列。
@@ -192,9 +164,7 @@
 - 更新 skills：選題價值判斷、業萱文風、去 AI 味、傳產案例拆解、文章配圖、文檔轉 PPT、影片摘要、品牌案例拆解、商業模式延伸。
 - 更新 `index.md` 與 `hot.md`，讓 AI 查詢、熱點、候選 Skill、備份狀態有清楚入口。
 - 下一步：設定手機 Telegram 剪藏入口、新聞雷達資料源、每日蒸餾自動化。
-
 ## 2026-06-11 Hermes 個人知識工廠路徑與顯示層落地
-
 - 新增 Hermes Inbox 路徑：`inbox/raw/`、`inbox/processed/`、`inbox/needs-review/`。
 - 新增內容輸出路徑：`outputs/threads/`、`outputs/facebook/`、`outputs/ig-carousel/`。
 - 更新 `AGENTS.md`、`CLAUDE.md`、`README.md`、`index.md`、`hot.md`，明確寫入 Telegram / Hermes 是入口、Discord 是顯示層、Obsidian 是正式知識庫、GitHub 是備份與跨 AI 接手。
@@ -222,8 +192,7 @@
 2026-07-03 | 建立管理獅行動管理入口：新增 workflows/管理獅.md，定義 Telegram 私訊路由、來源追蹤、圖片／網站收件、Wiki 更新、Git 提交與刪除審批規則。
 2026-07-05 | 碎片接收：處理 inbox/raw/20260705-175932-fable5os.md — Fable 5 AI 個人作業系統五步驟建構，Lion Score 平均 4.2（顧問可用性 5），自動存入 wiki/concepts/AI個人作業系統架構.md；更新 3 個既有頁面的關聯；建立 inbox/processed/20260705-AI個人作業系統架構.md；更新 index.md、hot.md、log.md。
 2026-07-06 | 新增 wiki/concepts/hermes-agent-overview.md — Hermes Agent 深度解析：架構、學習閉環、功能模組、安全模型、與 OpenClaw 比較；更新 index.md。
-2026-07-06 | 碎片接收：處理 inbox/raw/20260706-160000-AI一人公司實測.md — AI 一人公司實測（Antigravity 2.0 蒸餾人物 Skill），Lion Score 平均 4.4（可複製性 5），自動存入 wiki/concepts/AI一人公司與蒸餾人物Skill.md；建立 inbox/processed/；更新 index.md、log.md。
-2026-07-06 | 修正每日知識整理 cron job：no_agent 從 true 改為 false，解決 120 秒超時問題。
+2026-07-06 | 碎片接收：處理 inbox/raw/20260706-160000-AI一人公司揭露.md — AI 一人公司實測（Antigravity 2.0 蒸餾人物 Skill），Lion Score 平均 4.4（可複製性 5），自動存入 wiki/concepts/AI一人公司與蒸餾人物Skill.md；建立 inbox/processed/；更新 index.md、log.md。
 2026-07-07 | 碎片處理（小獅）：處理 7 個 inbox/raw/ 檔案。新增 wiki/concepts/AI工具分層使用法.md（GPT vs Codex 分工 + 強弱模型團隊管理框架）；新增 wiki/entities/電腦王阿達-KOCPC.md（4 條用戶路徑 + 自動化工具鏈 + 變現分析）；更新 wiki/concepts/引流.md（新增自動化引流工具鏈）；更新 wiki/concepts/AI一人公司與蒸餾人物Skill.md（新增 AI 蒸餾 = 團隊管理洞察）。
 2026-07-07 | 碎片處理（管理獅）：① GPT vs Codex 使用時機 → wiki/notes/GPT與Codex使用時機對比.md；② 蒸餾實驗心得 → wiki/concepts/AI蒸餾與分層使用法.md（提出「AI蒸餾=團隊管理」洞察）；③ 電腦王阿達兩篇合併 → wiki/entities/電腦王阿達.md + wiki/synthesis/阿達引流自動化案例.md；④ 已建立標籤體系：wiki/標籤/ 目錄 + wiki/tags-index.md，所有 wiki 頁面 tags 改為 [[標籤/xxx]] 格式。inbox/raw/ 清空。
 2026-07-07 | 碎片處理（小獅）：車輛定檢提醒 BV-931 → Lion Score 1/5（個人行政提醒，無知識庫價值），不存入 wiki，僅移至 inbox/processed/。提醒：車牌 BV-931 定檢迄日 115/07/17，已逾期約20天，建議通知業萱儘速辦理。
@@ -245,3 +214,10 @@
 - 補齊雙向連結：健康減脂計畫 ↔ 固定式重訓機菜單
 - 更新 index.md Note 區段、個人檔案更新記錄
 - Git commit b8b733e + push 成功
+
+2026-07-11 碎片接收（小獅 cron）：處理 4 個 inbox/raw/ 檔案。
+① Bot後台系統架構設計 -> Lion Score 4.4（變現價值5），存入 wiki/concepts/Bot後台系統架構設計.md — 多Profile管理 + CRM + 客戶培育架構
+② DOCX純Python解析方法 -> Lion Score 3.2（技術細節），存入 wiki/notes/DOCX純Python解析方法.md
+③ Hermes-Agent-Cloud-雲端部署 -> Lion Score 4.0（長期價值4、內容延展性4），存入 wiki/concepts/Hermes-Agent-Cloud-雲端部署.md — 60秒一鍵部署路線四
+④ WSL檔案搬移風險教訓 -> Lion Score 3.8（長期價值4），存入 wiki/notes/WSL檔案搬移風險教訓.md — 跨平台檔案操作風險意識
+全部移至 inbox/processed/，更新 index.md，log.md。
