@@ -240,4 +240,12 @@
 - [新增] `wiki/notes/小而美持續盈利的經營法則.md` — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》完整摘要（極簡主義創業六大步驟、MVP重新定義、100+自我定位問題）
 - [更新] `index.md` — 新增 Note 與 Concept 條目
 - [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結
-- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
+|- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
+
+## 2026-07-12（小獅 cron 碎片處理）
+- [新增] `wiki/concepts/一人公司創業檢查清單.md` — 8 大項評估框架（變現5/可複製5/長期5/顧問5/內容4），源自黑獅萃取 Sahil Lavingia Minimalist Entrepreneur 方法論的群獅版轉化
+- [新增] `wiki/synthesis/創業檢查清單實戰案例.md` — 香料大叔 45/100 vs 金飾 20/100 風險對比（變現5/可複製5/長期5/顧問5/內容4），核心洞察：合作夥伴生態是最常被忽略的一環
+- [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結至檢查清單與實戰案例
+- [更新] `wiki/notes/小而美持續盈利的經營法則.md` — 新增反向連結至檢查清單
+- [更新] `hot.md` — 新架構探索新增檢查清單條目
+- [更新] `tags-index.md` — 新增 [[標籤/香料大叔]]
