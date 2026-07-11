@@ -227,3 +227,10 @@
 - [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
 - [更新] `index.md` — 新增外部 skill 索引入口與條目
 - [來源] https://github.com/Raymondhou0917/speak-human-tw
+
+
+## 2026-07-13
+- [新增] `wiki/notes/小而美持續盈利的經營法則.md` — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》完整摘要（極簡主義創業六大步驟、MVP重新定義、100+自我定位問題）
+- [更新] `index.md` — 新增 Note 與 Concept 條目
+- [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結
+- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io

@@ -121,9 +121,11 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/智能體概念換皮揭露]] — 90%抖音博主賣的智能體只是套殼LLM工具
 - [[wiki/notes/GPT與Codex使用時機對比]] — GPT 適合頭腦風暴、Codex 適合執行
 - [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證
-|- [[wiki/notes/業老闆固定式重訓機菜單]] — 固定式機台專屬健身菜單（腳踝弱 + 猛健樂注意事項 + 上半身/下半身輪流表）
+|- [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證
+- [[wiki/notes/業老闆固定式重訓機菜單]] — 固定式機台專屬健身菜單（腳踝弱 + 猛健樂注意事項 + 上半身/下半身輪流表）
 - [[wiki/notes/DOCX純Python解析方法]] — 從 DOCX 提取塔羅牌內容的純 Python 標準庫方法
 - [[wiki/notes/WSL檔案搬移風險教訓]] — WSL 操作 NTFS 磁碟區 shutil.move() 導致 3267 檔案永久刪除的教訓
+- [[wiki/notes/小而美持續盈利的經營法則]] — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》：極簡主義創業、從第一天追求盈利、定義「足夠」
 
 ## 目前可用 Entity
 
@@ -139,8 +141,9 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 |- [[wiki/tools/claude-code-shortcuts]] — Claude Code 快捷操作指南 + Fable 5 成本優化策略（Advisor 模式 / Orchestrator 模式）
 |- [[wiki/concepts/Meta Ads投放自動化架構]] — Meta Ads 投放自動化五步流程：MCP 串接、GCS 圖床、Creative 自動上架
 |- [[wiki/concepts/Meta合作廣告與素材策略]] — Meta 合作廣告 CPA 降低 19%～37%、KOC 評估指標、創作者素材競賽時代
-- [[wiki/concepts/Bot後台系統架構設計]] — Bot 後台架構：多Profile管理 + CRM + 客戶培育，一套後台管所有品牌Bot
-- [[wiki/concepts/Hermes-Agent-Cloud-雲端部署]] — Hermes Agent Cloud 雲端一鍵部署路線，60秒上線 $10/月起
+|- [[wiki/concepts/Bot後台系統架構設計]] — Bot 後台架構：多Profile管理 + CRM + 客戶培育，一套後台管所有品牌Bot
+|- [[wiki/concepts/Hermes-Agent-Cloud-雲端部署]] — Hermes Agent Cloud 雲端一鍵部署路線，60秒上線 $10/月起
+|- [[wiki/concepts/小而美經營哲學]] — 極簡主義創業：從第一天追求盈利、定義「足夠」、用最少人力做最精準的事（來自《Start Small, Stay Small》+《一人公司》）
 
 ## 目前可用 Synthesis
 
