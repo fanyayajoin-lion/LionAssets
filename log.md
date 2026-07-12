@@ -222,13 +222,6 @@
 ④ WSL檔案搬移風險教訓 -> Lion Score 3.8（長期價值4），存入 wiki/notes/WSL檔案搬移風險教訓.md — 跨平台檔案操作風險意識
 全部移至 inbox/processed/，更新 index.md，log.md。
 
-## 2026-07-11
-- [inbox] 處理碎片 `2026-07-11-對話摘要.md` — 30 天自我訪談 Day 1 + 體測報告更新
-  - Lion Score: 最高 3 分（各維度 2-3），未達自動萃取門檻
-  - 體測數據已同步至 `wiki/BOSS/體重/業老闆健康減脂計畫.md`（含 7/11 體重 70.55kg）
-  - 30 天訪談專案屬進行中實驗，待 30 天完成後再萃取 synthesis
-  - 碎片已移至 processed/
-
 ## 2026-07-13
 - [新增] `wiki/external-skills/speak-human-tw.md` — 說人話 skill 設計文檔（38 種 AI 痕跡檢測 + 六步改寫流程 + 繁體中文在地化）
 - [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
@@ -240,12 +233,26 @@
 - [新增] `wiki/notes/小而美持續盈利的經營法則.md` — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》完整摘要（極簡主義創業六大步驟、MVP重新定義、100+自我定位問題）
 - [更新] `index.md` — 新增 Note 與 Concept 條目
 - [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結
-|- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
+- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
 
-## 2026-07-12（小獅 cron 碎片處理）
-- [新增] `wiki/concepts/一人公司創業檢查清單.md` — 8 大項評估框架（變現5/可複製5/長期5/顧問5/內容4），源自黑獅萃取 Sahil Lavingia Minimalist Entrepreneur 方法論的群獅版轉化
-- [新增] `wiki/synthesis/創業檢查清單實戰案例.md` — 香料大叔 45/100 vs 金飾 20/100 風險對比（變現5/可複製5/長期5/顧問5/內容4），核心洞察：合作夥伴生態是最常被忽略的一環
-- [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結至檢查清單與實戰案例
-- [更新] `wiki/notes/小而美持續盈利的經營法則.md` — 新增反向連結至檢查清單
-- [更新] `hot.md` — 新架構探索新增檢查清單條目
-- [更新] `tags-index.md` — 新增 [[標籤/香料大叔]]
+## 2026-07-12
+- [新增] `wiki/BOSS/AI 工具鏈與基礎設施.md` — AI 工具清單與基礎設施架構（Hostinger VPS、Codex、Claude Code、Obsidian、Hermes Agent、Firebase、GitHub、Telegram、Line OA）
+- [更新] `index.md` — 新增 AI 工具鏈條目至個人檔案區
+- [來源] 老闆 Telegram 指令
+
+- [新增] `wiki/concepts/經典商業模式清單.md` — 12 種經典可複用商業模式框架：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC分潤、長尾模式 + 快速選擇建議表
+- [更新] `index.md` — 新增 Concept 條目
+- [更新] `wiki/synthesis/商業模式框架總覽.md` — 新增反向連結
+- [來源] 老闆 Telegram 指令
+
+- [新增] `wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較.md` — Firebase、Cloudflare、Vercel、VPS 四者完整比較（核心定位、功能矩陣、定價模型、效能對比、組合建議、決策樹）
+- [更新] `index.md` — 新增 Concept 條目
+- [來源] 老闆 Telegram 指令
+
+- [新增] `wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS.md` — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案（黑獅判斷：<1000 三者皆可、1000~10000 VPS、>10000 VPS）
+- [更新] `index.md` — 新增 Concept 條目
+- [來源] 老闆 Telegram 指令
+
+- [新增] `wiki/synthesis/新創商業模式拆解系列.md` — 13 篇經典商業模式深度拆解：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC 分潤、長尾模式 + 快速匹配指南（Synthesis 層級）
+- [更新] `index.md` — 新增 Synthesis 條目
+- [來源] 老闆 Telegram 指令
