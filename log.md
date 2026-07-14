@@ -256,3 +256,9 @@
 - [新增] `wiki/synthesis/新創商業模式拆解系列.md` — 13 篇經典商業模式深度拆解：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC 分潤、長尾模式 + 快速匹配指南（Synthesis 層級）
 - [更新] `index.md` — 新增 Synthesis 條目
 - [來源] 老闆 Telegram 指令
+
+## 2026-07-14
+
+- [新增] `wiki/tools/Obsidian-全面使用指南與插件推薦.md` — Obsidian 全面使用方式：基本認識、核心內建功能、初級/中級/高級使用流程、知識管理方法論（PARA/Zettelkasten/MOC/Evergreen）、四梯隊插件推薦清單（共 35+ 插件）
+- [更新] `index.md` — 新增 Tools 條目
+- [來源] 老闆 Telegram 指令

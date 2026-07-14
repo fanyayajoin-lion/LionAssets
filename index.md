@@ -127,6 +127,9 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/DOCX純Python解析方法]] — 從 DOCX 提取塔羅牌內容的純 Python 標準庫方法
 - [[wiki/notes/WSL檔案搬移風險教訓]] — WSL 操作 NTFS 磁碟區 shutil.move() 導致 3267 檔案永久刪除的教訓
 - [[wiki/notes/小而美持續盈利的經營法則]] — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》：極簡主義創業、從第一天追求盈利、定義「足夠」
+- [[wiki/notes/自我提升節目推薦清單]] — 8 類自我提升節目對應表（奇葩說、非正式會談等）+ 執行建議
+- [[wiki/tools/好用的工具型網站推薦]] — 工具型網站收錄標準與模板，供快速查找與回流參考
+- [[wiki/tools/Obsidian-全面使用指南與插件推薦]] — Obsidian 完整使用方式、核心功能、知識管理方法論與插件推薦清單（四梯隊分類）
 
 ## 目前可用 Entity
 
