@@ -235,30 +235,32 @@
 - [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結
 - [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
 
-## 2026-07-12
-- [新增] `wiki/BOSS/AI 工具鏈與基礎設施.md` — AI 工具清單與基礎設施架構（Hostinger VPS、Codex、Claude Code、Obsidian、Hermes Agent、Firebase、GitHub、Telegram、Line OA）
-- [更新] `index.md` — 新增 AI 工具鏈條目至個人檔案區
-- [來源] 老闆 Telegram 指令
+## 2026-07-12（管理獅）
+|- [新增] `wiki/BOSS/AI 工具鏈與基礎設施.md` — AI 工具清單與基礎設施架構
+|- [新增] `wiki/concepts/經典商業模式清單.md` — 12 種經典可複用商業模式框架
+|- [新增] `wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較.md` — 四者完整比較
+|- [新增] `wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS.md` — 成本分析與推薦方案
+|- [新增] `wiki/synthesis/新創商業模式拆解系列.md` — 13 篇經典商業模式深度拆解
 
-- [新增] `wiki/concepts/經典商業模式清單.md` — 12 種經典可複用商業模式框架：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC分潤、長尾模式 + 快速選擇建議表
-- [更新] `index.md` — 新增 Concept 條目
-- [更新] `wiki/synthesis/商業模式框架總覽.md` — 新增反向連結
-- [來源] 老闆 Telegram 指令
+## 2026-07-12（小獅 cron 碎片處理）
+|- [新增] `wiki/concepts/一人公司創業檢查清單.md` — 8 大項評估框架（變現5/可複製5/長期5/顧問5/內容4）
+|- [新增] `wiki/synthesis/創業檢查清單實戰案例.md` — 香料大叔 45/100 vs 金飾 20/100 風險對比
+|- [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md`、`wiki/notes/小而美持續盈利的經營法則.md`、`hot.md`、`tags-index.md`
 
-- [新增] `wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較.md` — Firebase、Cloudflare、Vercel、VPS 四者完整比較（核心定位、功能矩陣、定價模型、效能對比、組合建議、決策樹）
-- [更新] `index.md` — 新增 Concept 條目
-- [來源] 老闆 Telegram 指令
+## 2026-07-13 每日萃取
+|- [2026-07-13 20:00] 每日萃取 cron：今日無對話知識可萃取，三筆 cron 均為例行任務。
 
-- [新增] `wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS.md` — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案（黑獅判斷：<1000 三者皆可、1000~10000 VPS、>10000 VPS）
-- [更新] `index.md` — 新增 Concept 條目
-- [來源] 老闆 Telegram 指令
-
-- [新增] `wiki/synthesis/新創商業模式拆解系列.md` — 13 篇經典商業模式深度拆解：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC 分潤、長尾模式 + 快速匹配指南（Synthesis 層級）
-- [更新] `index.md` — 新增 Synthesis 條目
-- [來源] 老闆 Telegram 指令
+## 2026-07-13（小獅 cron 碎片處理）
+|- [新增] `wiki/external-skills/speak-human-tw.md` — 說人話 skill 設計文檔
+|- [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
+|- 對話摘要 2026-07-13：cron 自動執行，無業老闆訊息。健康警訊、訪談完成率、管理獅 backlog 需追蹤。
 
 ## 2026-07-14
 
 - [新增] `wiki/tools/Obsidian-全面使用指南與插件推薦.md` — Obsidian 全面使用方式：基本認識、核心內建功能、初級/中級/高級使用流程、知識管理方法論（PARA/Zettelkasten/MOC/Evergreen）、四梯隊插件推薦清單（共 35+ 插件）
 - [更新] `index.md` — 新增 Tools 條目
 - [來源] 老闆 Telegram 指令
+
+## 2026-07-14（小獅 cron 碎片處理）
+|- 處理 inbox/raw/2026-07-13-對話摘要.md → Lion Score 平均 2（系統日記，部分萃取至業老闆個人檔案行為模式觀察）
+|- 檔案已移至 inbox/processed/，git commit + push 中
