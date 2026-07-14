@@ -222,13 +222,6 @@
 ④ WSL檔案搬移風險教訓 -> Lion Score 3.8（長期價值4），存入 wiki/notes/WSL檔案搬移風險教訓.md — 跨平台檔案操作風險意識
 全部移至 inbox/processed/，更新 index.md，log.md。
 
-## 2026-07-11
-- [inbox] 處理碎片 `2026-07-11-對話摘要.md` — 30 天自我訪談 Day 1 + 體測報告更新
-  - Lion Score: 最高 3 分（各維度 2-3），未達自動萃取門檻
-  - 體測數據已同步至 `wiki/BOSS/體重/業老闆健康減脂計畫.md`（含 7/11 體重 70.55kg）
-  - 30 天訪談專案屬進行中實驗，待 30 天完成後再萃取 synthesis
-  - 碎片已移至 processed/
-
 ## 2026-07-13
 - [新增] `wiki/external-skills/speak-human-tw.md` — 說人話 skill 設計文檔（38 種 AI 痕跡檢測 + 六步改寫流程 + 繁體中文在地化）
 - [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
@@ -240,14 +233,28 @@
 - [新增] `wiki/notes/小而美持續盈利的經營法則.md` — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》完整摘要（極簡主義創業六大步驟、MVP重新定義、100+自我定位問題）
 - [更新] `index.md` — 新增 Note 與 Concept 條目
 - [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結
-|- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
+- [來源] 微信讀書、TracyXC讀書筆記、YouTube摘要、Beancount.io
+
+## 2026-07-12（管理獅）
+|- [新增] `wiki/BOSS/AI 工具鏈與基礎設施.md` — AI 工具清單與基礎設施架構
+|- [新增] `wiki/concepts/經典商業模式清單.md` — 12 種經典可複用商業模式框架
+|- [新增] `wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較.md` — 四者完整比較
+|- [新增] `wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS.md` — 成本分析與推薦方案
+|- [新增] `wiki/synthesis/新創商業模式拆解系列.md` — 13 篇經典商業模式深度拆解
 
 ## 2026-07-12（小獅 cron 碎片處理）
-- [新增] `wiki/concepts/一人公司創業檢查清單.md` — 8 大項評估框架（變現5/可複製5/長期5/顧問5/內容4），源自黑獅萃取 Sahil Lavingia Minimalist Entrepreneur 方法論的群獅版轉化
-- [新增] `wiki/synthesis/創業檢查清單實戰案例.md` — 香料大叔 45/100 vs 金飾 20/100 風險對比（變現5/可複製5/長期5/顧問5/內容4），核心洞察：合作夥伴生態是最常被忽略的一環
-- [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md` — 新增反向連結至檢查清單與實戰案例
-- [更新] `wiki/notes/小而美持續盈利的經營法則.md` — 新增反向連結至檢查清單
-- [更新] `hot.md` — 新架構探索新增檢查清單條目
-- [更新] `tags-index.md` — 新增 [[標籤/香料大叔]]
+|- [新增] `wiki/concepts/一人公司創業檢查清單.md` — 8 大項評估框架（變現5/可複製5/長期5/顧問5/內容4）
+|- [新增] `wiki/synthesis/創業檢查清單實戰案例.md` — 香料大叔 45/100 vs 金飾 20/100 風險對比
+|- [更新] `wiki/concepts/AI一人公司與蒸餾人物Skill.md`、`wiki/notes/小而美持續盈利的經營法則.md`、`hot.md`、`tags-index.md`
 
->>>2026-07-13<<< 04:00 — 蝦趴獅對話摘要 cron：產出 。昨日（7/12）無業老闆直接對話，全為 cron 自動執行：每週靈感5題、碎片萃取2篇wiki+7筆處理、系統回報正常。管理獅 backlog 38筆待審需追蹤。心臟風險警訊持續未處理。
+## 2026-07-13 每日萃取
+|- [2026-07-13 20:00] 每日萃取 cron：今日無對話知識可萃取，三筆 cron 均為例行任務。
+
+## 2026-07-13（小獅 cron 碎片處理）
+|- [新增] `wiki/external-skills/speak-human-tw.md` — 說人話 skill 設計文檔
+|- [新增] `wiki/external-skills/index.md` — 外部 Skill 彙整索引頁
+|- 對話摘要 2026-07-13：cron 自動執行，無業老闆訊息。健康警訊、訪談完成率、管理獅 backlog 需追蹤。
+
+## 2026-07-14（小獅 cron 碎片處理）
+|- 處理 inbox/raw/2026-07-13-對話摘要.md → Lion Score 平均 2（系統日記，部分萃取至業老闆個人檔案行為模式觀察）
+|- 檔案已移至 inbox/processed/，git commit + push 中

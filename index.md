@@ -76,6 +76,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
   - [[wiki/BOSS/業老闆的人類圖行動指南]] — 人類圖詳細指南
   - [[wiki/BOSS/業老闆寫文風格特徵卡]] — AI 產出內容時的語氣參考
   - [[wiki/BOSS/業老闆星盤資料]] — 星盤完整資料（太陽天秤10宮群星 + 月亮處女9宮 + 上升射手）
+  - [[wiki/BOSS/AI 工具鏈與基礎設施]] — AI 工具清單與基礎設施架構（VPS、Codex、Claude Code、Hermes、Obsidian、GitHub、Firebase、Telegram、Line OA）
 
 ## 目前可用 Workflow
 
@@ -137,18 +138,22 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/concepts/hermes-agent-overview]] — Hermes Agent 深度解析：架構、功能、安全、與 OpenClaw 比較
 - [[wiki/concepts/AI一人公司與蒸餾人物Skill]] — 蒸餾人物 Skill 技術：把公開大神的思維邏輯與說話語氣萃取成可重複使用的 AI 技能
 - [[wiki/concepts/AI工具分層使用法]] — GPT vs Codex 分工策略 + 強弱模型團隊管理法
-|- [[wiki/concepts/AI蒸餾與分層使用法]] — 強模型做判斷、弱模型做執行，AI 蒸餾 = 團隊管理
-|- [[wiki/tools/claude-code-shortcuts]] — Claude Code 快捷操作指南 + Fable 5 成本優化策略（Advisor 模式 / Orchestrator 模式）
-|- [[wiki/concepts/Meta Ads投放自動化架構]] — Meta Ads 投放自動化五步流程：MCP 串接、GCS 圖床、Creative 自動上架
-|- [[wiki/concepts/Meta合作廣告與素材策略]] — Meta 合作廣告 CPA 降低 19%～37%、KOC 評估指標、創作者素材競賽時代
-|- [[wiki/concepts/Bot後台系統架構設計]] — Bot 後台架構：多Profile管理 + CRM + 客戶培育，一套後台管所有品牌Bot
-|- [[wiki/concepts/Hermes-Agent-Cloud-雲端部署]] — Hermes Agent Cloud 雲端一鍵部署路線，60秒上線 $10/月起
-|- [[wiki/concepts/小而美經營哲學]] — 極簡主義創業：從第一天追求盈利、定義「足夠」、用最少人力做最精準的事（來自《Start Small, Stay Small》+《一人公司》）
+- [[wiki/concepts/AI蒸餾與分層使用法]] — 強模型做判斷、弱模型做執行，AI 蒸餾 = 團隊管理
+- [[wiki/tools/claude-code-shortcuts]] — Claude Code 快捷操作指南 + Fable 5 成本優化策略（Advisor 模式 / Orchestrator 模式）
+- [[wiki/concepts/Meta Ads投放自動化架構]] — Meta Ads 投放自動化五步流程：MCP 串接、GCS 圖床、Creative 自動上架
+- [[wiki/concepts/Meta合作廣告與素材策略]] — Meta 合作廣告 CPA 降低 19%～37%、KOC 評估指標、創作者素材競賽時代
+- [[wiki/concepts/Bot後台系統架構設計]] — Bot 後台架構：多Profile管理 + CRM + 客戶培育，一套後台管所有品牌Bot
+- [[wiki/concepts/Hermes-Agent-Cloud-雲端部署]] — Hermes Agent Cloud 雲端一鍵部署路線，60秒上線 $10/月起
+- [[wiki/concepts/小而美經營哲學]] — 極簡主義創業：從第一天追求盈利、定義「足夠」、用最少人力做最精準的事（來自《Start Small, Stay Small》+《一人公司》）
+- [[wiki/concepts/經典商業模式清單]] — 12 種經典可複用商業模式框架：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC分潤、長尾模式
+- [[wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較]] — Firebase、Cloudflare、Vercel、VPS 四者完整比較（功能矩陣、定價、效能、組合建議）
+- [[wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS]] — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案
 
 ## 目前可用 Synthesis
 
 - [[wiki/synthesis/阿達引流自動化案例]] — 電腦王阿達 4 條引流路徑 + 自動化工具鏈 + 變現手法
 - [[wiki/synthesis/創業者vs企業主社群行為洞察]] — 創業者 vs 企業主社群使用行為數據對比，產品切入點：把收藏碎片變成可執行 Skill
+- [[wiki/synthesis/新創商業模式拆解系列]] — 13 篇經典商業模式深度拆解：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC 分潤、長尾模式 + 快速匹配指南
 
 ## 知識提升邏輯
 
