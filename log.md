@@ -264,3 +264,9 @@
 ## 2026-07-14（小獅 cron 碎片處理）
 |- 處理 inbox/raw/2026-07-13-對話摘要.md → Lion Score 平均 2（系統日記，部分萃取至業老闆個人檔案行為模式觀察）
 |- 檔案已移至 inbox/processed/，git commit + push 中
+
+## 2026-07-15（小獅 cron 碎片處理）
+|- [新增] `wiki/notes/2026-07-15-對話摘要-2026-07-14.md` — 7/14 對話摘要：停用 cron #6、訪談規則明確化、BlueMagpie-TTS 評估、設計人生模式深化、健康警訊提醒
+|- [新增] `wiki/notes/2026-07-15-Hermes-Agent-版本檢查與升級建議.md` — Hermes v0.17.0 → v0.18.2 版本檢查報告，Gateway Scale-to-Zero 風險評估
+|- 兩筆檔案已移至 inbox/processed/
+|- BlueMagpie-TTS 為新實體，需建立 wiki/entities 頁面
