@@ -76,6 +76,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
   - [[wiki/BOSS/業老闆的人類圖行動指南]] — 人類圖詳細指南
   - [[wiki/BOSS/業老闆寫文風格特徵卡]] — AI 產出內容時的語氣參考
   - [[wiki/BOSS/業老闆星盤資料]] — 星盤完整資料（太陽天秤10宮群星 + 月亮處女9宮 + 上升射手）
+  - [[wiki/BOSS/業老闆紫微斗數命盤]] — 紫微斗數命盤（太陰命宮、巨門身宮、2026流年重點）
   - [[wiki/BOSS/AI 工具鏈與基礎設施]] — AI 工具清單與基礎設施架構（VPS、Codex、Claude Code、Hermes、Obsidian、GitHub、Firebase、Telegram、Line OA）
 
 ## 目前可用 Workflow
