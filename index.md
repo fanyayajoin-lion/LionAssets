@@ -155,6 +155,8 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 
 ## 目前可用 Synthesis
 
+- [[wiki/synthesis/台灣小型顧問案五人對標]] — 台灣在地一人顧問案五人对標：定位敘事、產品階梯、案源、訂閱制、客戶池機制拆解
+
 - [[wiki/synthesis/阿達引流自動化案例]] — 電腦王阿達 4 條引流路徑 + 自動化工具鏈 + 變現手法
 - [[wiki/synthesis/創業者vs企業主社群行為洞察]] — 創業者 vs 企業主社群使用行為數據對比，產品切入點：把收藏碎片變成可執行 Skill
 - [[wiki/synthesis/新創商業模式拆解系列]] — 13 篇經典商業模式深度拆解：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC 分潤、長尾模式 + 快速匹配指南
