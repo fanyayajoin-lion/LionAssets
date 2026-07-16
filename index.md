@@ -152,6 +152,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較]] — Firebase、Cloudflare、Vercel、VPS 四者完整比較（功能矩陣、定價、效能、組合建議）
 |- [[wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS]] — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案
 |- [[wiki/concepts/超級個體深度閱讀書單]] — 五大模塊 20 本深度閱讀書單：專注生產力、底層認知、商業財富、人性溝通、內心韌性 + 配套閱讀方法
+|- [[wiki/concepts/Codex自媒體十大Skill]] — 從選題到發布、復盤的 10 個 Codex Skill 完整工作流
 
 ## 目前可用 Synthesis
 

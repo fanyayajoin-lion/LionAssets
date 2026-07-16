@@ -277,6 +277,12 @@
 - [更新] `index.md` — 新增 Concept 條目
 - [來源] 老闆 Telegram 直接輸入
 
+## 2026-07-16（管理獅直接入庫 · 二）
+
+- [新增] `wiki/concepts/Codex自媒體十大Skill.md` — 從選題到發布、復盤的 10 個 Codex Skill 完整工作流 + 工作流映射圖
+- [更新] `index.md` — 新增 Concept 條目
+- [來源] 老闆 Telegram 直接輸入
+
 ## 2026-07-16（管理獅每日整理）
 
 - [新增] `wiki/synthesis/台灣小型顧問案五人對標.md` — 台灣在地一人顧問案五人对標：雷蒙三十（定位敘事）、劉奕酉（產品階梯）、Harris先生（案源）、于為暢（訂閱制）、周振驊（客戶池），Lion Score 平均 4.8
