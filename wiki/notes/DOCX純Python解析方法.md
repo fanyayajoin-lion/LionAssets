@@ -1,20 +1,9 @@
 ---
 title: "從 DOCX 提取塔羅牌內容的純 Python 方法"
-created: 2026-07-11
-updated: 2026-07-11
-type: note
-tags: [DOCX解析, 純Python, 塔羅專案, 檔案處理]
-sources:
-  - "黑獅每日萃取 — 20260709-20260710 CLI 對話"
-lion_score:
-  變現價值: 2
-  可複製性: 3
-  長期價值: 2
-  顧問可用性: 2
-  內容延展性: 2
+date: 2026-07-10
+source: "黑獅每日萃取"
+tags: [daily-extract, DOCX解析, 純Python, 塔羅專案]
 ---
-
-# 從 DOCX 提取塔羅牌內容的純 Python 方法
 
 ## 摘要
 
@@ -23,7 +12,6 @@ lion_score:
 ## 技術要點
 
 DOCX 本質上是 ZIP 壓縮的 XML 檔案：
-
 1. 用 `zipfile` 模組打開 .docx
 2. 讀取 `word/document.xml`
 3. 用 `xml.etree.ElementTree` 解析
@@ -56,11 +44,6 @@ with zipfile.ZipFile('file.docx') as z:
 - `npm run build` 成功：20.49s, 1813 modules, 5 chunks
 - Firebase 部署到 `https://liontarot22-web.web.app`
 - 所有頁面（Home、Report、Match、Course）正常運作
-
-## 關聯
-
-- [[塔羅靈數專案]] — 塔羅 v5 專案記錄（待建立）
-- [[GPT與Codex使用時機對比]] — 純 Python 解析是 Codex 執行層面的技巧
 
 ## 來源
 

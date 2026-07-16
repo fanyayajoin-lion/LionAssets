@@ -1,24 +1,13 @@
 ---
-title: "WSL 操作 Windows NTFS 磁碟區的檔案搬移風險教訓"
-created: 2026-07-11
-updated: 2026-07-11
-type: note
-tags: [技術教訓, WSL, NTFS, 檔案安全, shutil, 災難復原]
-sources:
-  - "黑獅每日萃取 — 20260710 CLI 對話"
-lion_score:
-  變現價值: 2
-  可複製性: 3
-  長期價值: 4
-  顧問可用性: 3
-  內容延展性: 3
+title: "WSL 操作 Windows NTFS 磁碟區的檔案搬移風險"
+date: 2026-07-10
+source: "黑獅每日萃取"
+tags: [daily-extract, 技術教訓, WSL, NTFS, 檔案安全]
 ---
-
-# WSL 操作 Windows NTFS 磁碟區的檔案搬移風險教訓
 
 ## 摘要
 
-在 DFP 過往資料分類任務中，使用 Python 的 `shutil.move()` 在 WSL 下操作 Windows NTFS 磁碟區（/mnt/c/），導致 3,267 個檔案被永久刪除。這是一個重要的技術教訓，值得記錄。
+在 DFP 過往資料分類任務中，使用 Python 的 `shutil.move()` 在 WSL 下操作 Windows NTFS 磁碟區（/mnt/c/），導致 3,267 個檔案被永久刪除。
 
 ## 事故經過
 
@@ -59,16 +48,6 @@ shutil.copy2(src, dst)  # 先複製
 # 驗證內容一致
 os.remove(src)  # 再刪除
 ```
-
-## 關鍵洞察
-
-這個教訓的核心是**跨平台檔案操作的風險意識**。WSL 和 Windows 的檔案系統行為不完全一致，特别是在 NTFS 磁碟區上。對於重要資料，永遠採用「先複製、驗證、再刪除」的三段式操作。
-
-## 關聯
-
-- [[hermes-agent-overview]] — Hermes 運行環境中的 WSL 使用注意事項
-- [[數據作證規則]] — AI 互動行為準則：操作前必須驗證
-- [[GPT與Codex使用時機對比]] — 這類技術陷阱適合用 Codex 執行，但要加保護措施
 
 ## 來源
 

@@ -270,3 +270,9 @@
 |- [新增] `wiki/notes/2026-07-15-Hermes-Agent-版本檢查與升級建議.md` — Hermes v0.17.0 → v0.18.2 版本檢查報告，Gateway Scale-to-Zero 風險評估
 |- 兩筆檔案已移至 inbox/processed/
 |- BlueMagpie-TTS 為新實體，需建立 wiki/entities 頁面
+
+## 2026-07-16（管理獅直接入庫）
+
+- [新增] `wiki/concepts/超級個體深度閱讀書單.md` — 五大模塊 20 本深度閱讀書單：專注生產力、底層認知、商業財富、人性溝通、內心韌性 + 配套閱讀方法
+- [更新] `index.md` — 新增 Concept 條目
+- [來源] 老闆 Telegram 直接輸入

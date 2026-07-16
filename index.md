@@ -150,7 +150,8 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/concepts/小而美經營哲學]] — 極簡主義創業：從第一天追求盈利、定義「足夠」、用最少人力做最精準的事（來自《Start Small, Stay Small》+《一人公司》）
 - [[wiki/concepts/經典商業模式清單]] — 12 種經典可複用商業模式框架：訂閱制、平台、Freemium、剃刀刀片、DTC、佣金、廣告、加盟、按量付費、綑綁銷售、UGC分潤、長尾模式
 - [[wiki/concepts/Firebase-Cloudflare-Vercel-VPS比較]] — Firebase、Cloudflare、Vercel、VPS 四者完整比較（功能矩陣、定價、效能、組合建議）
-- [[wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS]] — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案
+|- [[wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS]] — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案
+|- [[wiki/concepts/超級個體深度閱讀書單]] — 五大模塊 20 本深度閱讀書單：專注生產力、底層認知、商業財富、人性溝通、內心韌性 + 配套閱讀方法
 
 ## 目前可用 Synthesis
 
