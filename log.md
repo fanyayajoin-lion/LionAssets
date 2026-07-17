@@ -297,3 +297,9 @@
 - [新增] `wiki/BOSS/業老闆紫微斗數命盤.md` — 紫微斗數命盤完整資料：太陰命宮、巨門身宮、己年生人四化、33-42歲乙丑大限重點、2026丙午年流年分析
 - index.md 已更新個人檔案區
 - 檔案已移至 inbox/processed/
+
+## 2026-07-17（管理獅直接入庫）
+
+- [新增] `wiki/concepts/Web-部署平台比較表.md` — Cloudflare Pages / Workers、GitHub Pages、Netlify、Vercel、Supabase、Zeabur 六平台比較：最適合場景、不適合場景、白話判斷與決策參考
+- [更新] `index.md` — 新增 Concept 條目
+- [來源] 老闆 Telegram 圖片截圖

@@ -154,6 +154,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 |- [[wiki/concepts/資料庫方案成本比較-Firebase-Supabase-VPS]] — Firebase vs Supabase vs VPS 成本分析：收費觸發點、客戶規模對應推薦方案
 |- [[wiki/concepts/超級個體深度閱讀書單]] — 五大模塊 20 本深度閱讀書單：專注生產力、底層認知、商業財富、人性溝通、內心韌性 + 配套閱讀方法
 |- [[wiki/concepts/Codex自媒體十大Skill]] — 從選題到發布、復盤的 10 個 Codex Skill 完整工作流
+|- [[wiki/concepts/Web-部署平台比較表]] — Cloudflare / GitHub Pages / Netlify / Vercel / Supabase / Zeabur 六平台比較（適用場景、不適用場景、白話判斷）
 
 ## 目前可用 Synthesis
 
