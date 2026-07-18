@@ -124,6 +124,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/GPT與Codex使用時機對比]] — GPT 適合頭腦風暴、Codex 適合執行
 - [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證
 |- [[wiki/notes/數據作證規則]] — AI 互動行為準則：假設性判斷必須查真實數據佐證
+- [[wiki/notes/2026-07-16-對話摘要-LionThreads定位與命理探索]] — 7/16 對話重點：LionThreads 產品藍海確認、CreatOK 對標、古古基金課程差異化、品牌調性三維度框架
 - [[wiki/notes/業老闆固定式重訓機菜單]] — 固定式機台專屬健身菜單（腳踝弱 + 猛健樂注意事項 + 上半身/下半身輪流表）
 - [[wiki/notes/DOCX純Python解析方法]] — 從 DOCX 提取塔羅牌內容的純 Python 標準庫方法
 - [[wiki/notes/WSL檔案搬移風險教訓]] — WSL 操作 NTFS 磁碟區 shutil.move() 導致 3267 檔案永久刪除的教訓

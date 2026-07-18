@@ -295,11 +295,19 @@
 ## 2026-07-17（小獅 cron 碎片處理）
 
 - [新增] `wiki/BOSS/業老闆紫微斗數命盤.md` — 紫微斗數命盤完整資料：太陰命宮、巨門身宮、己年生人四化、33-42歲乙丑大限重點、2026丙午年流年分析
-- index.md 已更新個人檔案區
-- 檔案已移至 inbox/processed/
+|- index.md 已更新個人檔案區
+|- 檔案已移至 inbox/processed/
 
 ## 2026-07-17（管理獅直接入庫）
 
 - [新增] `wiki/concepts/Web-部署平台比較表.md` — Cloudflare Pages / Workers、GitHub Pages、Netlify、Vercel、Supabase、Zeabur 六平台比較：最適合場景、不適合場景、白話判斷與決策參考
 - [更新] `index.md` — 新增 Concept 條目
 - [來源] 老闆 Telegram 圖片截圖
+
+## 2026-07-18（小獅 cron 碎片處理）
+
+- [新增] `wiki/notes/2026-07-16-對話摘要-LionThreads定位與命理探索.md` — 7/16 對話重點：LionThreads 產品藍海確認、CreatOK 對標、古古基金課程差異化、品牌調性三維度框架
+- [新增] Lion Score 評估：變現4/可複製4/長期5/顧問4/內容4 → 符合自動入庫標準
+- [新增] 雙向連結：outbound 3 條（紫微斗數命盤、AI個人作業系統、台灣小型顧問案對標）
+- [搬移] inbox/raw/ 3 筆檔案 → inbox/processed/（2026-07-15/16/17 對話摘要）
+- [來源] cron 投遞
