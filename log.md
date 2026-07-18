@@ -304,6 +304,14 @@
 - [更新] `index.md` — 新增 Concept 條目
 - [來源] 老闆 Telegram 圖片截圖
 
+## 2026-07-18（管理獅）
+
+- [新增] `wiki/notes/群獅會議-碎片SLA與健康檢查優化.md` — 群獅週會紀錄：碎片 SLA 三層機制、健康檢查三欄位監控、cron prompt 重構
+- [搬移] inbox/raw/ 3 筆積壓檔案 → inbox/processed/（紫微斗數命盤、對話摘要、會議紀錄）
+- [更新] `scripts/hermes_health.py` — 加入 raw/ 計數、最老碎片年齡、cron 狀態三欄位監控 + SLA 嚴重度判斷
+- [更新] cron job `114f79fd562b` — 重構 prompt，增加輸出限制與精簡格式，解決 truncation 問題
+- [來源] 會議決議落實
+
 ## 2026-07-18（小獅 cron 碎片處理）
 
 - [新增] `wiki/notes/2026-07-16-對話摘要-LionThreads定位與命理探索.md` — 7/16 對話重點：LionThreads 產品藍海確認、CreatOK 對標、古古基金課程差異化、品牌調性三維度框架

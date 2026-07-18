@@ -136,6 +136,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 ## 目前可用 Entity
 
 - [[wiki/entities/電腦王阿達]] — 科技媒體品牌，自動化引流案例
+- [[wiki/entities/珍妮-CLAW-龍蝦-AI-Agent-Platform]] — 宥爵智能開發的 Agentic AI 數位代理平台：多模型路由、50+ 技能市集、沙箱安全、LINE/Telegram 整合、點數制計費
 
 ## 目前可用 Concept
 
