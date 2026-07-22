@@ -131,7 +131,8 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/碎片計數標準]] — raw/ 統一計數命令、排除規則、SLA 觸發條件（管理獅 + 秘書獅共識）
 - [[wiki/notes/WSL檔案搬移風險教訓]] — WSL 操作 NTFS 磁碟區 shutil.move() 導致 3267 檔案永久刪除的教訓
 - [[wiki/notes/小而美持續盈利的經營法則]] — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》：極簡主義創業、從第一天追求盈利、定義「足夠」
-- [[wiki/notes/自我提升節目推薦清單]] — 8 類自我提升節目對應表（奇葩說、非正式會談等）+ 執行建議
+|- [[wiki/notes/2026-07-21-對話摘要-異常自主修復原則]] — 7/21 對話重點：DEC_012 異常自主修復原則 + 數據飛輪在 Hermes 的四層應用 + LionThreads 決策閉環第 6 天警訊
+|- [[wiki/notes/自我提升節目推薦清單]] — 8 類自我提升節目對應表（奇葩說、非正式會談等）+ 執行建議
 - [[wiki/tools/好用的工具型網站推薦]] — 工具型網站收錄標準與模板，供快速查找與回流參考
 - [[wiki/tools/Obsidian-全面使用指南與插件推薦]] — Obsidian 完整使用方式、核心功能、知識管理方法論與插件推薦清單（四梯隊分類）
 
