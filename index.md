@@ -128,6 +128,7 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 - [[wiki/notes/2026-07-19-對話摘要-系統安靜日]] — 7/19 完全安靜日觀察：高密度對話→消化期模式第三次出現、LionThreads 決策閉環第 4 天、跨獅會議結論未落地
 - [[wiki/notes/業老闆固定式重訓機菜單]] — 固定式機台專屬健身菜單（腳踝弱 + 猛健樂注意事項 + 上半身/下半身輪流表）
 - [[wiki/notes/DOCX純Python解析方法]] — 從 DOCX 提取塔羅牌內容的純 Python 標準庫方法
+- [[wiki/notes/碎片計數標準]] — raw/ 統一計數命令、排除規則、SLA 觸發條件（管理獅 + 秘書獅共識）
 - [[wiki/notes/WSL檔案搬移風險教訓]] — WSL 操作 NTFS 磁碟區 shutil.move() 導致 3267 檔案永久刪除的教訓
 - [[wiki/notes/小而美持續盈利的經營法則]] — 薩希爾·拉文吉亞《Start Small, Stay Small》+ Paul Jarvis《一人公司》：極簡主義創業、從第一天追求盈利、定義「足夠」
 - [[wiki/notes/自我提升節目推薦清單]] — 8 類自我提升節目對應表（奇葩說、非正式會談等）+ 執行建議
@@ -158,10 +159,13 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 |- [[wiki/concepts/超級個體深度閱讀書單]] — 五大模塊 20 本深度閱讀書單：專注生產力、底層認知、商業財富、人性溝通、內心韌性 + 配套閱讀方法
 |- [[wiki/concepts/Codex自媒體十大Skill]] — 從選題到發布、復盤的 10 個 Codex Skill 完整工作流
 |- [[wiki/concepts/Web-部署平台比較表]] — Cloudflare / GitHub Pages / Netlify / Vercel / Supabase / Zeabur 六平台比較（適用場景、不適用場景、白話判斷）
+|- [[wiki/concepts/GitHub工作流與專案管理最佳實踐]] — GitHub 五大黃金法則：結構標準化、分支策略、自動化取代手動、文件即程式碼、安全控管
 
 ## 目前可用 Synthesis
 
-- [[wiki/synthesis/台灣小型顧問案五人對標]] — 台灣在地一人顧問案五人对標：定位敘事、產品階梯、案源、訂閱制、客戶池機制拆解
+|- [[wiki/synthesis/台灣小型顧問案五人對標]] — 台灣在地一人顧問案五人对標：定位敘事、產品階梯、案源、訂閱制、客戶池機制拆解
+
+- [[wiki/synthesis/OpenClaw-vs-HermesAgent-競品分析]] — OpenClaw vs Hermes Agent 市場對比：快速落地 vs 長期陪伴定位差異（2026-07-22 新增）
 
 - [[wiki/synthesis/阿達引流自動化案例]] — 電腦王阿達 4 條引流路徑 + 自動化工具鏈 + 變現手法
 - [[wiki/synthesis/創業者vs企業主社群行為洞察]] — 創業者 vs 企業主社群使用行為數據對比，產品切入點：把收藏碎片變成可執行 Skill

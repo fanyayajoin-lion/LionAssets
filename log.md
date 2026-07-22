@@ -343,3 +343,18 @@
   - `2026-07-20-對話摘要.md` — 靜默日觀察 + cron 狀態匯報，不具備顧問/課程價值
 - [新增] 無 wiki 更新
 - [來源] cron 碎片自動入庫
+
+## 2026-07-22（管理獅每日整理）
+
+- [新增] `wiki/concepts/GitHub工作流與專案管理最佳實踐.md` — GitHub 五大黃金法則：結構標準化、分支策略、自動化取代手動、文件即程式碼、安全控管，Lion Score 平均 4.4
+- [新增] `wiki/synthesis/OpenClaw-vs-HermesAgent-競品分析.md` — OpenClaw vs Hermes Agent 市場對比：快速落地型 vs 長期陪伴型定位差異，Lion Score 平均 4.0
+- [新增] `wiki/notes/OmniRoute開源免費AIGateway研究.md` — OmniRoute AI Gateway 工具研究：250+ 供應商、18 種路由策略、Token 壓縮省 15-95%，Lion Score 平均 3.0
+- [更新] `index.md` — 新增 Concept 與 Synthesis 條目
+- [更新] `wiki/concepts/hermes-agent-overview.md` — 追加反向連結至競品分析與 OmniRoute
+- [搬移] inbox/raw/ 9 筆檔案 → inbox/processed/：
+  - GitHub 管理指南 → wiki/concepts（Lion Score 4.4）
+  - VPS 容器總覽 → processed（Lion Score 2.0，內部技術報告，不存 wiki）
+  - OpenClaw vs Hermes 對比 → wiki/synthesis（Lion Score 4.0）
+  - OmniRoute AI Gateway → wiki/notes（Lion Score 3.0）
+  - 對話摘要 7/16-7/20 × 5 筆 → processed（Lion Score ≤2，系統日誌）
+- [來源] cron 碎片自動入庫 + 管理獅直接入庫

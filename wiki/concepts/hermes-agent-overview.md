@@ -170,3 +170,8 @@ Hermes Agent 採用七層安全模型：
 - Utilo 完整回顧：https://utilo.io/en/home/blog/hermes-agent-review-2026
 - innfactory 技術比較：https://innfactory.ai/en/blog/openclaw-vs-hermes-agent-comparison
 - Medium 使用心得：https://medium.com/@creativeaininja/hermes-agent-the-open-source-ai-agent-that-actually-remembers-what-it-learned-yesterday-278441cd1870
+
+## 關聯知識庫頁面
+
+- [[wiki/synthesis/OpenClaw-vs-HermesAgent-競品分析]] — OpenClaw vs Hermes 市場對比（2026-07-22 新增）
+- [[wiki/notes/OmniRoute開源免費AIGateway研究]] — AI Gateway 工具研究，與 Hermes 解耦理念互補（2026-07-22 新增）
