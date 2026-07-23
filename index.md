@@ -160,7 +160,9 @@ index.md -> hot.md -> wiki/synthesis -> wiki/concepts -> wiki/notes -> inbox/pro
 |- [[wiki/concepts/超級個體深度閱讀書單]] — 五大模塊 20 本深度閱讀書單：專注生產力、底層認知、商業財富、人性溝通、內心韌性 + 配套閱讀方法
 |- [[wiki/concepts/Codex自媒體十大Skill]] — 從選題到發布、復盤的 10 個 Codex Skill 完整工作流
 |- [[wiki/concepts/Web-部署平台比較表]] — Cloudflare / GitHub Pages / Netlify / Vercel / Supabase / Zeabur 六平台比較（適用場景、不適用場景、白話判斷）
-|- [[wiki/concepts/GitHub工作流與專案管理最佳實踐]] — GitHub 五大黃金法則：結構標準化、分支策略、自動化取代手動、文件即程式碼、安全控管
+||- [[wiki/concepts/GitHub工作流與專案管理最佳實踐]] — GitHub 五大黃金法則：結構標準化、分支策略、自動化取代手動、文件即程式碼、安全控管（2026-07-23 更新：新增分支策略比較表 + 自動化工具設定位置）
+|- [[wiki/concepts/LINE-Bot關鍵字飛輪架構]] — LINE Bot 四層飛輪式分流架構：節省 API 成本、保證一致性、提高速度，可複製到所有 Bot 專案（2026-07-23 新增）
+|- [[wiki/concepts/域名TLD信任度研究]] — 台灣傳產老闆對網址 TLD 的信任感知排名：.com > .com.tw > .tech/.cloud（2026-07-23 新增）
 
 ## 目前可用 Synthesis
 
