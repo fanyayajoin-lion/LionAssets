@@ -359,13 +359,22 @@
   - OpenClaw vs Hermes 對比 → wiki/synthesis（Lion Score 4.0）
   - OmniRoute AI Gateway → wiki/notes（Lion Score 3.0）
   - 對話摘要 7/16-7/20 × 5 筆 → processed（Lion Score ≤2，系統日誌）
-- [來源] cron 碎片自動入庫 + 管理獅直接入庫
+- [來源] cron 碎片自動入庫
 
-- [2026-07-23] 碎片自動入庫（6 筆）：
+## 2026-07-23（小獅 cron 碎片處理）
+
+- [搬移] inbox/raw/ 6 筆檔案 → inbox/processed/：
   - 對話摘要 7/21 → processed（Lion Score ≤2，系統日誌）
   - OpenClaw vs Hermes 競爭定位 → 已存在 wiki/synthesis（重複，跳過）
   - 小獅 BOT 關鍵字飛輪架構 → wiki/concepts/LINE-Bot關鍵字飛輪架構.md（Lion Score 4.0+，高變現+高可複製性）
   - 域名 TLD 信任度研究 → wiki/concepts/域名TLD信任度研究.md（Lion Score 4.0+，長期價值高）
   - GitHub 大神管理法則 → 更新 wiki/concepts/GitHub工作流與專案管理最佳實踐.md（Lion Score 4.0+，補充分支策略比較表+自動化工具設定）
   - 群獅會議紀錄 → processed（Lion Score 2-3，流程改善資訊）
-- [來源] cron 碎片自動入庫
+- [來源] cron 碎片自動入庫 + 管理獅直接入庫
+
+## 2026-07-23（管理獅每日整理）
+
+- [搬移] inbox/raw/ 1 筆檔案 → inbox/processed/：
+  - `discussion-13d485fe45df4618b1e1afd304a69725.md` — 群獅內部檢討會議紀錄，依規則排除（非知識碎片），移至 processed/
+- [Wiki 更新] 無
+- [來源] 管理獅手動檢查
