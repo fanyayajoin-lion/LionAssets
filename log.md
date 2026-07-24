@@ -378,3 +378,14 @@
   - `discussion-13d485fe45df4618b1e1afd304a69725.md` — 群獅內部檢討會議紀錄，依規則排除（非知識碎片），移至 processed/
 - [Wiki 更新] 無
 - [來源] 管理獅手動檢查
+
+## 2026-07-24（管理獅清理 raw/ 重複檔案）
+
+- [清理] inbox/raw/ 5 筆已入庫的舊檔 → inbox/processed/（GitHub大神管理法則、小獅BOT飛輪架構、域名TLD信任度研究、OpenClaw-vs-Hermes競爭定位、2026-07-21對話摘要）
+- [原因] 這些檔案之前已被 cron 寫入 wiki，但 raw/ 副本未清理，避免下次 cron 重複處理
+- [來源] 管理獅手動清理
+
+## 2026-07-24（每日蒸餾）
+
+- [整理] inbox/raw/20260724-114818-Hermes技能評估報告.md → wiki/notes/Hermes技能評估.md（已存在，無需更新） | Lion Score: 2.4
+- [搬移] 已處理檔案移至 inbox/processed/
